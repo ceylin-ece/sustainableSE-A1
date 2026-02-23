@@ -5,7 +5,7 @@ from huggingface_hub import snapshot_download
 MODELS = [
     "bartowski/Llama-3.2-3B-Instruct-GGUF",
     "Qwen/Qwen2.5-3B-Instruct-GGUF",
-    "MaziyarPanahi/Ministral-3-3B-Reasoning-2512-GGUF"
+    "microsoft/Phi-3-mini-4k-instruct-gguf"
 ]
 
 # Destination directory relative to where the script is run
@@ -25,7 +25,7 @@ def download_models():
             downloaded_path = snapshot_download(
                 repo_id=repo_id,
                 local_dir=DEST_DIR,
-                allow_patterns=["*Q4_K_M.gguf", "*q4_k_m.gguf"],
+                allow_patterns=["*Q4_K_M.gguf", "*q4_k_m.gguf", "*q4.gguf"],
                 local_dir_use_symlinks=False 
             )
             print(f"Successfully downloaded to: {downloaded_path}")
