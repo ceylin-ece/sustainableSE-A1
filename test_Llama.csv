@@ -1,0 +1,2 @@
+Model_Name,Trial,Task_ID,Passed,Reason,Duration_Sec,Prompt_Tokens,Completion_Tokens,Total_Tokens,Prompt
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,1,11,False,AssertionError,2.01,109,55,164,Write a python function to remove first and last occurrence of a given character from the string.

@@ -65,6 +65,9 @@ for trial in $(seq $START_TRIAL $END_TRIAL); do
         # Clean up temp file
         rm -f "$tmp_output"
         
+        echo "Cooling down: Sleeping for 2 minutes before the next trial..."
+        sleep 120
+        
     done
 done
 

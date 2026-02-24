@@ -1,0 +1,225 @@
+Model_Name,Trial,Task_ID,Passed,Reason,Duration_Sec,Prompt_Tokens,Completion_Tokens,Total_Tokens,Prompt
+qwen2.5-3b-instruct-q4_k_m.gguf,3,11,False,AssertionError,0.57,87,17,104,Write a python function to remove first and last occurrence of a given character from the string.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,12,True,Passed,0.41,86,13,99,Write a function to sort a given matrix in ascending order according to the sum of its rows.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,14,False,Exception: NameError - name 'find_Volume' is not defined,1.48,79,66,145,Write a python function to find the volume of a triangular prism.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,16,False,AssertionError,0.70,93,27,120,Write a function to that returns true if the input string contains sequences of lowercase letters joined with an underscore and false otherwise.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,17,True,Passed,0.39,85,12,97,Write a function that returns the perimeter of a square given its side length as input.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,18,True,Passed,0.66,89,25,114,Write a function to remove characters from the first string which are present in the second string.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,19,True,Passed,0.51,84,18,102,Write a function to find whether a given array of integers contains any duplicate element.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,20,False,AssertionError,1.36,84,60,144,Write a function to check if the given number is woodball or not.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,56,True,Passed,0.57,84,21,105,Write a python function to check if a given number is one less than twice its reverse.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,57,False,Exception: NameError - name 'find_Max_Num' is not defined,1.24,86,54,140,Write a python function to find the largest number that can be formed with the given list of digits.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,58,True,Passed,0.49,87,17,104,Write a python function to check whether the given two integers have opposite sign or not.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,59,False,AssertionError,0.55,79,20,99,Write a function to find the nth octagonal number.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,61,True,Passed,2.54,89,80,169,Write a python function to count the number of substrings with the sum of digits equal to their length.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,62,True,Passed,0.36,79,10,89,Write a python function to find smallest number in a list.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,63,False,Exception: TypeError - unsupported operand type(s) for -: 'tuple' and 'tuple',1.47,85,65,150,Write a function to find the maximum difference between available pairs in the given tuple list.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,64,True,Passed,0.56,85,20,105,Write a function to sort a list of tuples using the second value of each tuple.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,65,True,Passed,1.09,83,46,129,Write a function to flatten a list and sum all of its elements.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,66,True,Passed,0.49,82,17,99,Write a python function to count the number of positive numbers in a list.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,67,True,Passed,2.62,84,120,204,Write a function to find the number of ways to partition a set of Bell numbers.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,68,True,Passed,1.26,86,55,141,Write a python function to check whether the given array is monotonic or not.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,69,False,Exception: NameError - name 'itertools' is not defined,0.62,85,23,108,Write a function to check whether a list contains the given sublist or not.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,70,True,Passed,0.60,83,22,105,Write a function to find whether all the given tuples have equal length or not.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,71,False,AssertionError,2.65,77,123,200,Write a function to sort a list of elements.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,72,False,Exception: ZeroDivisionError - division by zero,1.30,90,57,147,Write a python function to check whether the given number can be represented as the difference of two squares or not.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,74,False,AssertionError,1.16,86,50,136,Write a function to check whether it follows the sequence given in the patterns array.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,75,True,Passed,0.76,90,30,120,Write a function to find tuples which have all elements divisible by k from the given list of tuples.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,77,True,Passed,0.47,84,16,100,Write a python function to find whether a number is divisible by 11.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,79,True,Passed,0.47,84,16,100,Write a python function to check whether the length of the word is odd or not.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,80,True,Passed,0.70,81,27,108,Write a function to find the nth tetrahedral number.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,82,True,Passed,0.61,78,23,101,Write a function to find the volume of a sphere.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,84,True,Passed,2.60,82,78,160,Write a function to find the nth number in the newman conway sequence.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,85,True,Passed,0.58,80,21,101,Write a function to find the surface area of a sphere.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,86,True,Passed,0.61,80,23,103,Write a function to find nth centered hexagonal number.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,87,True,Passed,0.74,88,29,117,Write a function to merge three dictionaries into a single dictionary.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,88,True,Passed,0.59,88,22,110,"Write a function to get the frequency of all the elements in a list, returned as a dictionary."
+qwen2.5-3b-instruct-q4_k_m.gguf,3,89,True,Passed,0.37,79,11,90,Write a function to find the closest smaller number than n.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,90,True,Passed,0.51,81,18,99,Write a python function to find the length of the longest word.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,91,True,Passed,0.62,93,23,116,Write a function to check if a string is present as a substring in a given list of string values.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,92,False,AssertionError,1.44,84,64,148,Write a function to check whether the given number is undulating or not.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,93,True,Passed,0.37,85,11,96,Write a function to calculate the value of 'a' to the power 'b'.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,94,True,Passed,0.60,91,22,113,"Given a list of tuples, write a function that returns the first value of the tuple with the smallest second value."
+qwen2.5-3b-instruct-q4_k_m.gguf,3,95,True,Passed,0.54,86,19,105,Write a python function to find the length of the smallest list in a list of lists.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,96,True,Passed,1.99,82,91,173,Write a python function to find the number of divisors of a given integer.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,97,True,Passed,1.29,89,56,145,"Write a function to find frequency of each element in a flattened list of lists, returned in a dictionary."
+qwen2.5-3b-instruct-q4_k_m.gguf,3,98,False,AssertionError,0.43,87,14,101,Write a function to multiply all the numbers in a list and divide with the length of the list.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,99,False,AssertionError,0.41,91,13,104,"Write a function to convert the given decimal number to its binary equivalent, represented as a string with no leading zeros."
+qwen2.5-3b-instruct-q4_k_m.gguf,3,100,True,Passed,1.10,89,47,136,"Write a function to find the next smallest palindrome of a specified integer, returned as an integer."
+qwen2.5-3b-instruct-q4_k_m.gguf,3,101,True,Passed,0.45,89,15,104,Write a function to find the kth element in the given array using 1-based indexing.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,102,False,AssertionError,0.45,83,15,98,Write a function to convert a snake case string to camel case string.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,103,False,Exception: RecursionError - maximum recursion depth exceeded,1.47,84,65,149,"Write a function to find the Eulerian number a(n, m)."
+qwen2.5-3b-instruct-q4_k_m.gguf,3,104,True,Passed,0.56,85,20,105,Write a function to sort each sublist of strings in a given list of lists.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,105,True,Passed,0.33,80,9,89,Write a python function to count true booleans in the given list.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,106,False,Exception: TypeError - unsupported operand type(s) for +: 'int' and 'list',0.72,85,28,113,Write a function to append the given list to the given tuples.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,108,True,Passed,0.62,86,23,109,Write a function to merge three lists into a single sorted list.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,109,True,Passed,1.81,95,81,176,Write a python function to find the number of numbers with an odd value when rotating a binary string the given number of times.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,111,False,AssertionError,0.82,84,33,117,Write a function to find the common elements in given nested lists.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,113,False,AssertionError,0.61,81,23,104,Write a function to check if a string represents an integer or not.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,116,True,Passed,0.49,84,17,101,Write a function to convert a given tuple of positive integers into a single integer.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,118,False,AssertionError,0.37,86,11,97,Write a function to convert a string to a list of strings split on the space character.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,119,False,AssertionError,0.94,83,39,122,Write a python function to find the element that appears only once in a sorted array.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,120,False,AssertionError,1.59,89,71,160,Write a function to find the maximum absolute product between numbers in pairs of tuples within a given list.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,123,False,Exception: NameError - name 'amicable_numbers_sum' is not defined,2.62,84,122,206,Write a function to sum all amicable numbers from 1 to a specified number.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,124,False,Exception: NameError - name 'cmath' is not defined,0.47,80,16,96,Write a function to get the angle of a complex number.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,125,False,AssertionError,1.89,98,83,181,Write a function to find the maximum difference between the number of 0s and number of 1s in any sub-string of the given binary string.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,126,False,Exception: NameError - name 'divisors' is not defined,0.51,84,18,102,Write a python function to find the sum of common divisors of two given numbers.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,127,True,Passed,0.38,77,12,89,Write a function to multiply two integers.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,128,True,Passed,0.63,88,24,112,Write a function to find words that are longer than n characters from a given list of words.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,129,False,AssertionError,2.62,82,123,205,Write a function to calculate whether the matrix is a magic square.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,130,True,Passed,0.70,83,28,111,Write a function to find the item with maximum frequency in a given list.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,131,True,Passed,2.83,91,134,225,Write a python function to reverse only the vowels of a given string (where y is not a vowel).
+qwen2.5-3b-instruct-q4_k_m.gguf,3,132,True,Passed,0.44,80,15,95,Write a function to convert a tuple to a string.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,133,True,Passed,0.58,88,22,110,Write a function to calculate the sum of the negative numbers of a given list of numbers.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,135,True,Passed,0.50,79,18,97,Write a function to find the nth hexagonal number.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,137,False,AssertionError,0.62,86,24,110,Write a function to find the ratio of zeroes to non-zeroes in an array of integers.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,138,False,AssertionError,0.79,98,30,128,Write a python function to check whether the given number can be represented as sum of non-zero powers of 2 or not.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,139,True,Passed,0.49,81,17,98,Write a function to find the circumference of a circle.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,140,True,Passed,0.47,85,16,101,Write a function to flatten the list of lists into a single set of numbers.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,141,True,Passed,2.49,78,118,196,Write a function to sort a list of elements.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,142,True,Passed,0.90,92,38,130,Write a function to count number items that are identical in the same position of three given lists.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,145,True,Passed,0.48,88,17,105,Write a python function to find the maximum difference between any two elements in a given array.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,160,False,AssertionError,1.36,99,58,157,"Write a function that returns integers x and y that satisfy ax + by = n as a tuple, or return None if no solution exists."
+qwen2.5-3b-instruct-q4_k_m.gguf,3,161,True,Passed,0.66,87,25,112,Write a function to remove all elements from a given list present in another list.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,162,True,Passed,1.03,115,26,141,"Write a function to calculate the sum (n - 2*i) from i=0 to n // 2, for instance n + (n-2) + (n-4)... (until n-x =< 0)."
+qwen2.5-3b-instruct-q4_k_m.gguf,3,165,False,AssertionError,1.73,99,75,174,Write a function to count the number of characters in a string that occur at the same position in the string as in the English alphabet (case insensitive).
+qwen2.5-3b-instruct-q4_k_m.gguf,3,166,True,Passed,1.42,89,62,151,Write a function that counts the number of pairs of integers in a list that xor to an even number.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,167,False,AssertionError,0.57,89,21,110,Write a python function to find the smallest power of 2 greater than or equal to n.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,168,True,Passed,0.37,84,11,95,Write a function to count the number of occurrences of a number in a given list.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,170,True,Passed,0.58,93,21,114,Write a function to find the sum of numbers in a list within a range specified by two indices.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,171,True,Passed,0.41,88,13,101,Write a function to find the perimeter of a regular pentagon from the length of its sides.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,172,True,Passed,0.43,90,14,104,Write a function to count the number of occurence of the string 'std' in a given string.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,222,True,Passed,0.98,86,41,127,Write a function to check if all the elements in tuple have same data type or not.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,223,False,AssertionError,1.50,121,63,184,"Write a function that takes in a sorted array, its length (n), and an element and returns whether the element is the majority element in the given sorted array. (The majority element is the element that occurs more than n/2 times.)"
+qwen2.5-3b-instruct-q4_k_m.gguf,3,224,True,Passed,0.84,93,34,127,Write a python function to count the number of set bits (binary digits with value 1) in a given number.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,226,True,Passed,0.82,87,33,120,Write a python function to remove the characters which have odd index values of a given string.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,227,True,Passed,0.43,80,14,94,Write a function to find minimum of three numbers.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,230,True,Passed,0.49,96,17,113,"Write a function that takes in a string and character, replaces blank spaces in the string with the character, and returns the string."
+qwen2.5-3b-instruct-q4_k_m.gguf,3,232,True,Passed,0.56,96,20,116,Write a function that takes in a list and an integer n and returns a list containing the n largest items from the list.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,233,True,Passed,0.67,86,26,112,Write a function to find the lateral surface area of a cylinder.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,234,True,Passed,0.37,82,11,93,Write a function to find the volume of a cube given its side length.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,235,False,AssertionError,1.08,83,46,129,Write a python function to set all even bits of a given number.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,237,False,AssertionError,0.76,99,28,127,Write a function that takes in a list of tuples and returns a dictionary mapping each unique tuple to the number of times it occurs in the list.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,238,True,Passed,0.69,88,27,115,Write a python function to count the number of non-empty substrings of a given string.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,239,False,AssertionError,1.63,121,69,190,"Write a function that takes in positive integers m and n and finds the number of possible sequences of length n, such that each element is a positive integer and is greater than or equal to twice the previous element but less than or equal to m."
+qwen2.5-3b-instruct-q4_k_m.gguf,3,240,False,AssertionError,0.62,96,23,119,Write a function that takes in two lists and replaces the last element of the first list with the elements of the second list.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,242,True,Passed,0.41,83,13,96,Write a function to count the total number of characters in a string.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,244,False,AssertionError,1.29,86,56,142,Write a python function to find the next perfect square greater than a given number.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,245,False,AssertionError,2.99,105,136,241,"Write a function that takes an array and finds the maximum sum of a bitonic subsequence for the given array, where a sequence is bitonic if it is first increasing and then decreasing."
+qwen2.5-3b-instruct-q4_k_m.gguf,3,247,True,Passed,3.76,89,170,259,Write a function to find the length of the longest palindromic subsequence in the given string.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,250,True,Passed,0.44,96,14,110,Write a python function that takes in a tuple and an element and counts the occcurences of the element in the tuple.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,251,False,AssertionError,0.78,98,28,126,"Write a function that takes in a list and an element and inserts the element before each element in the list, and returns the resulting list."
+qwen2.5-3b-instruct-q4_k_m.gguf,3,252,False,Exception: TypeError - 'complex' object is not iterable,0.49,78,17,95,Write a python function to convert complex numbers to polar coordinates.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,253,True,Passed,0.58,84,21,105,Write a python function that returns the number of integer elements in a given list.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,255,False,AssertionError,1.14,106,46,152,"Write a function that takes in a list and length n, and generates all combinations (with repetition) of the elements of the list and returns a list with a tuple for each combination."
+qwen2.5-3b-instruct-q4_k_m.gguf,3,256,True,Passed,2.02,95,91,186,Write a python function that takes in a non-negative number and returns the number of prime numbers less than the given non-negative number.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,257,True,Passed,0.39,90,12,102,Write a function that takes in two numbers and returns a tuple with the second number and then the first number.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,259,False,AssertionError,0.90,85,37,122,Write a function to maximize the given two tuples.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,260,False,AssertionError,4.33,86,203,289,Write a function to find the nth newman–shanks–williams prime number.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,261,True,Passed,1.02,95,43,138,Write a function that takes in two tuples and performs mathematical division operation element-wise across the given tuples.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,262,True,Passed,0.63,113,21,134,"Write a function that takes in a list and an integer L and splits the given list into two parts where the length of the first part of the list is L, and returns the resulting lists in a tuple."
+qwen2.5-3b-instruct-q4_k_m.gguf,3,264,False,"Exception: UFuncTypeError - ufunc 'subtract' did not contain a loop with signature matching types (dtype('<U21'), dtype('float64')) -> None",1.39,82,61,143,Write a function to calculate a dog's age in dog's years.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,265,False,AssertionError,0.82,98,30,128,"Write a function that takes in a list and an integer n and splits a list for every nth element, returning a list of the resulting lists."
+qwen2.5-3b-instruct-q4_k_m.gguf,3,266,True,Passed,0.45,86,15,101,Write a function to find the lateral surface area of a cube given its side length.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,267,False,Exception: TypeError - 'float' object cannot be interpreted as an integer,0.60,93,22,115,Write a python function that takes in an integer n and returns the sum of the squares of the first n odd natural numbers.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,268,False,AssertionError,0.60,80,22,102,Write a function to find the n'th star number.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,269,True,Passed,0.35,79,10,89,Write a function to find the ascii value of a character.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,270,True,Passed,0.90,88,37,125,Write a python function to find the sum of even numbers at even positions of a list.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,271,False,AssertionError,0.79,99,29,128,Write a python function that takes in an integer n and finds the sum of the first n even natural numbers that are raised to the fifth power.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,272,True,Passed,0.54,90,19,109,Write a function that takes in a list of tuples and returns a list containing the rear element of each tuple.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,273,True,Passed,0.94,105,36,141,Write a function that takes in two tuples and subtracts the elements of the first tuple by the elements of the second tuple with the same index.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,274,False,Exception: NameError - name 'binomial' is not defined,0.82,95,33,128,Write a python function that takes in a positive integer n and finds the sum of even index binomial coefficients.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,276,True,Passed,0.58,88,21,109,Write a function that takes in the radius and height of a cylinder and returns the the volume.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,277,True,Passed,0.77,98,28,126,Write a function that takes in a dictionary and integer n and filters the dictionary to only include entries with values greater than or equal to n.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,278,False,AssertionError,0.52,90,18,108,Write a function to find the number of elements that occurs before the tuple element in the given tuple.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,279,False,AssertionError,1.47,80,65,145,Write a function to find the nth decagonal number.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,280,True,Passed,1.00,114,39,153,Write a function that takes in an array and element and returns a tuple containing a boolean that indicates if the element is in the array and the index position of the element (or -1 if the element is not found).
+qwen2.5-3b-instruct-q4_k_m.gguf,3,281,True,Passed,0.51,86,18,104,Write a python function to check if the elements of a given list are unique or not.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,282,True,Passed,0.70,81,27,108,Write a function to subtract two lists element-wise.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,283,False,AssertionError,0.98,95,41,136,Write a python function takes in an integer and check whether the frequency of each digit in the integer is less than or equal to the digit itself.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,284,True,Passed,0.56,95,20,115,Write a function that takes in a list and element and checks whether all items in the list are equal to the given element.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,285,False,Exception: NameError - name 're' is not defined,0.58,93,21,114,Write a function that checks whether a string contains the 'a' character followed by two or three 'b' characters.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,286,False,"Exception: SyntaxError - '(' was never closed (<string>, line 19)",4.12,102,190,292,Write a function to find the largest sum of a contiguous array in the modified array which is formed by repeating the given array k times.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,287,True,Passed,1.50,90,26,116,Write a python function takes in an integer n and returns the sum of squares of first n even natural numbers.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,290,False,AssertionError,0.56,84,20,104,Write a function to find the list of maximum length in a list of lists.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,292,True,Passed,0.35,85,10,95,Write a python function to find quotient of two numbers (rounded down to the nearest integer).
+qwen2.5-3b-instruct-q4_k_m.gguf,3,293,False,Exception: NameError - name 'math' is not defined,0.56,84,20,104,Write a function to find the third side of a right angled triangle.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,294,False,Exception: TypeError - '>' not supported between instances of 'int' and 'str',0.39,82,12,94,Write a function to find the maximum value in a given heterogeneous list.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,296,False,AssertionError,3.91,81,183,264,Write a python function to count inversions in an array.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,297,True,Passed,0.88,79,36,115,Write a function to flatten a given nested list structure.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,299,False,Exception: TypeError - unsupported operand type(s) for +: 'int' and 'str',0.54,83,19,102,Write a function to calculate the maximum aggregate from the list of tuples.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,300,False,TimeoutError: Execution timed out (possible infinite loop in generated code),6.88,100,80,180,Write a function to find the count of all binary sequences of length 2n such that sum of first n bits is same as sum of last n bits.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,301,False,Exception: NameError - name 'dict_depth' is not defined,1.03,79,38,117,Write a function to find the depth of a dictionary.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,305,False,AssertionError,0.56,86,20,106,Write a function to return two words from a list of words starting with letter 'p'.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,306,False,AssertionError,4.32,114,199,313,"Write a function to find the maximum sum of increasing subsequence from prefix until ith index and also including a given kth element which is after i, i.e., k > i ."
+qwen2.5-3b-instruct-q4_k_m.gguf,3,308,False,AssertionError,1.03,96,43,139,"Write a function to find the specified number of largest products from two given lists, selecting one factor from each list."
+qwen2.5-3b-instruct-q4_k_m.gguf,3,309,True,Passed,0.43,79,14,93,Write a python function to find the maximum of two numbers.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,310,False,AssertionError,0.41,83,13,96,Write a function to convert a given string to a tuple of characters.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,311,False,AssertionError,0.88,82,36,118,Write a python function to set the left most unset bit.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,312,True,Passed,0.70,80,27,107,Write a function to find the volume of a cone.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,388,False,Exception: NameError - name 'math' is not defined,0.59,92,22,114,Write a python function to find the highest power of 2 that is less than or equal to n.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,389,True,Passed,1.59,81,71,152,Write a function to find the n'th lucas number.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,390,True,Passed,0.53,87,19,106,Write a function to apply a given format string to all of the elements in a list.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,391,False,AssertionError,0.82,88,33,121,Write a function to convert more than one list to nested dictionary.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,392,False,Exception: RecursionError - maximum recursion depth exceeded,1.33,115,55,170,"Write a function to find the maximum sum possible by using the given equation f(n) = max( (f(n/2) + f(n/3) + f(n/4) + f(n/5)), n)."
+qwen2.5-3b-instruct-q4_k_m.gguf,3,394,True,Passed,0.60,82,22,104,Write a function to check if given tuple contains no duplicates.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,395,True,Passed,1.64,88,73,161,Write a python function to find the first non-repeated character in a given string.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,397,True,Passed,0.49,80,17,97,Write a function to find the median of three numbers.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,398,False,AssertionError,0.66,85,25,110,Write a function to compute the sum of digits of each number of a given list.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,404,True,Passed,0.43,79,14,93,Write a python function to find the minimum of two numbers.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,405,True,Passed,0.50,86,17,103,Write a function to check whether an element exists within a tuple.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,406,True,Passed,0.45,84,15,99,Write a python function to find whether the parity of a given number is odd.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,409,False,AssertionError,1.57,87,70,157,Write a function to find the minimum product from the pairs of tuples within a given list.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,410,False,Exception: TypeError - '<' not supported between instances of 'int' and 'str',0.39,82,12,94,Write a function to find the minimum value in a given heterogeneous list.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,412,True,Passed,0.60,80,22,102,Write a python function to remove odd numbers from a given list.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,413,True,Passed,0.57,86,21,107,Write a function to extract the nth element from a given list of tuples.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,414,True,Passed,0.56,88,20,108,Write a python function to check whether any value in a sequence exists in a sequence or not.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,415,False,AssertionError,2.62,85,121,206,Write a python function to find a pair with highest product from a given array of integers.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,418,True,Passed,0.42,82,13,95,Write a python function to find the element of a list having maximum length.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,419,True,Passed,0.76,95,30,125,Write a function to round every number of a given list of numbers and print the total sum multiplied by the length of the list.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,420,False,AssertionError,0.66,84,25,109,Write a python function to find the cube sum of first n even natural numbers.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,421,False,"Exception: TypeError - sequence item 2: expected str instance, int found",0.45,82,15,97,Write a function to concatenate each element of tuple by the delimiter.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,422,False,AssertionError,0.63,87,24,111,Write a python function to find the average of cubes of first n natural numbers.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,424,False,AssertionError,0.56,87,20,107,Write a function to extract only the rear index element of each string in the given tuple.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,425,False,AssertionError,0.66,87,25,112,Write a function to count the number of sublists containing a particular element.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,426,True,Passed,0.62,76,23,99,Write a function to filter odd numbers.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,427,False,AssertionError,0.39,86,12,98,Write a function to convert a date of yyyy-mm-dd format to dd-mm-yyyy format.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,428,True,Passed,2.19,81,100,181,Write a function to sort the given array by using shell sort.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,429,True,Passed,0.86,91,35,126,Write a function to extract the elementwise and tuples from the given two tuples.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,430,False,AssertionError,0.78,88,31,119,Write a function to find the directrix of a parabola.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,432,True,Passed,0.68,90,26,116,Write a function to find the median length of a trapezium.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,433,False,AssertionError,0.51,88,18,106,Write a function to check whether the entered number is greater than the elements of the given array.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,435,False,Exception: NameError - name 'last_Digit' is not defined,0.39,80,12,92,Write a python function to find the last digit of a given number.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,436,True,Passed,0.60,82,22,104,Write a python function to return the negative numbers in a list.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,437,False,Exception: ValueError - invalid literal for int() with base 10: 'p',0.72,79,28,107,Write a function to remove odd characters in a string.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,439,True,Passed,0.50,83,17,100,Write a function to join a list of multiple integers into a single integer.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,440,False,AssertionError,2.54,86,117,203,Write a function to find the first adverb and their positions in a given sentence.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,441,True,Passed,0.43,84,14,98,Write a function to find the surface area of a cube of a given size.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,445,False,Exception: TypeError - can't multiply sequence by non-int of type 'tuple',0.89,93,36,129,Write a function to perform index wise multiplication of tuple elements in the given two tuples.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,446,False,AssertionError,0.64,90,24,114,Write a python function to count the occurence of all elements of list in a tuple.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,447,True,Passed,0.48,80,16,96,Write a function to find cubes of individual elements in a list.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,448,False,AssertionError,1.87,80,85,165,Write a function to calculate the sum of perrin numbers.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,450,False,AssertionError,0.78,87,31,118,Write a function to extract specified size of strings from a given list of string values.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,451,True,Passed,0.45,83,15,98,Write a function to remove all whitespaces from the given string.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,453,False,Exception: NameError - name 'sumofFactors' is not defined,1.33,81,58,139,Write a python function to find the sum of even factors of a number.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,454,True,Passed,0.43,80,14,94,Write a function that matches a word containing 'z'.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,455,True,Passed,0.94,90,39,129,Write a function to check whether the given month number contains 31 days or not.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,456,True,Passed,0.57,84,20,104,Write a function to reverse each string in a given list of string values.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,457,True,Passed,0.42,79,13,92,Write a python function to find the sublist having minimum length.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,458,True,Passed,0.37,79,11,90,Write a function to find the area of a rectangle.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,459,False,AssertionError,0.61,82,23,105,Write a function to remove uppercase substrings from a given string.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,460,True,Passed,0.47,79,16,95,Write a python function to get the first element of each sublist.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,462,False,AssertionError,1.62,84,66,150,Write a function to find all possible combinations of the elements of a given list.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,463,True,Passed,2.27,84,104,188,Write a function to find the maximum product subarray of the given array.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,465,False,AssertionError,0.64,80,24,104,Write a function to drop empty items from a given dictionary.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,468,False,AssertionError,1.74,88,78,166,Write a function to find the maximum product formed by multiplying numbers of an increasing subsequence of that array.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,470,True,Passed,0.78,87,31,118,Write a function to find the pairwise addition of the neighboring elements of the given tuple.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,471,True,Passed,0.84,85,34,119,Write a python function to find the product of the array multiplication modulo n.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,472,True,Passed,0.78,84,31,115,Write a python function to check whether the given list contains consecutive numbers or not.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,473,False,AssertionError,1.04,93,44,137,Write a function to find the tuple intersection of elements in the given tuple list irrespective of their order.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,474,True,Passed,0.57,83,21,104,Write a function to replace characters in a string.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,475,False,AssertionError,0.60,78,22,100,Write a function to sort a dictionary by value.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,476,True,Passed,0.43,86,14,100,Write a python function to find the sum of the largest and smallest value in a given array.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,477,True,Passed,0.33,80,9,89,Write a python function to convert the given string to lower case.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,478,True,Passed,0.64,81,24,105,Write a function to remove lowercase substrings from a given string.
+qwen2.5-3b-instruct-q4_k_m.gguf,3,479,False,Exception: NameError - name 'first_Digit' is not defined,0.43,80,14,94,Write a python function to find the first digit of a given number.

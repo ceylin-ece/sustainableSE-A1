@@ -1,0 +1,471 @@
+Model_Name,Trial,Task_ID,Passed,Reason,Duration_Sec,Prompt_Tokens,Completion_Tokens,Total_Tokens,Prompt
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,11,False,AssertionError,1.34,109,55,164,Write a python function to remove first and last occurrence of a given character from the string.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,12,True,Passed,0.47,108,17,125,Write a function to sort a given matrix in ascending order according to the sum of its rows.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,14,False,Exception: NameError - name 'find_Volume' is not defined,1.77,101,84,185,Write a python function to find the volume of a triangular prism.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,16,False,AssertionError,0.61,115,24,139,Write a function to that returns true if the input string contains sequences of lowercase letters joined with an underscore and false otherwise.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,17,True,Passed,0.47,107,17,124,Write a function that returns the perimeter of a square given its side length as input.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,18,True,Passed,0.72,111,30,141,Write a function to remove characters from the first string which are present in the second string.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,19,True,Passed,0.58,106,22,128,Write a function to find whether a given array of integers contains any duplicate element.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,20,False,AssertionError,2.14,106,103,209,Write a function to check if the given number is woodball or not.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,56,False,Exception: NameError - name 'num' is not defined,0.78,106,33,139,Write a python function to check if a given number is one less than twice its reverse.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,57,False,Exception: NameError - name 'find_Max_Num' is not defined,1.91,108,91,199,Write a python function to find the largest number that can be formed with the given list of digits.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,58,True,Passed,0.59,109,23,132,Write a python function to check whether the given two integers have opposite sign or not.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,59,False,AssertionError,3.63,101,179,280,Write a function to find the nth octagonal number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,61,False,AssertionError,2.34,111,113,224,Write a python function to count the number of substrings with the sum of digits equal to their length.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,62,True,Passed,0.41,101,14,115,Write a python function to find smallest number in a list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,63,False,Exception: TypeError - unsupported operand type(s) for -: 'tuple' and 'tuple',2.18,107,105,212,Write a function to find the maximum difference between available pairs in the given tuple list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,64,True,Passed,0.61,107,24,131,Write a function to sort a list of tuples using the second value of each tuple.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,65,False,"Exception: TypeError - can only concatenate list (not ""int"") to list",1.20,105,55,160,Write a function to flatten a list and sum all of its elements.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,66,True,Passed,0.60,104,24,128,Write a python function to count the number of positive numbers in a list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,67,False,AssertionError,4.84,106,239,345,Write a function to find the number of ways to partition a set of Bell numbers.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,68,True,Passed,1.52,108,71,179,Write a python function to check whether the given array is monotonic or not.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,69,True,Passed,1.30,107,60,167,Write a function to check whether a list contains the given sublist or not.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,70,True,Passed,0.64,105,26,131,Write a function to find whether all the given tuples have equal length or not.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,71,False,TimeoutError: Execution timed out (possible infinite loop in generated code),8.11,99,152,251,Write a function to sort a list of elements.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,72,False,AssertionError,1.28,112,56,168,Write a python function to check whether the given number can be represented as the difference of two squares or not.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,74,False,AssertionError,1.87,108,89,197,Write a function to check whether it follows the sequence given in the patterns array.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,75,True,Passed,2.01,112,96,208,Write a function to find tuples which have all elements divisible by k from the given list of tuples.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,77,False,AssertionError,0.94,105,40,145,Write a python function to find whether a number is divisible by 11.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,79,True,Passed,0.55,106,21,127,Write a python function to check whether the length of the word is odd or not.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,80,False,AssertionError,2.16,103,104,207,Write a function to find the nth tetrahedral number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,82,True,Passed,1.80,100,86,186,Write a function to find the volume of a sphere.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,84,False,AssertionError,4.91,104,242,346,Write a function to find the nth number in the newman conway sequence.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,85,True,Passed,0.64,102,26,128,Write a function to find the surface area of a sphere.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,86,False,AssertionError,2.24,102,108,210,Write a function to find nth centered hexagonal number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,87,True,Passed,5.28,110,260,370,Write a function to merge three dictionaries into a single dictionary.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,88,True,Passed,0.66,110,27,137,"Write a function to get the frequency of all the elements in a list, returned as a dictionary."
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,89,False,AssertionError,2.31,101,112,213,Write a function to find the closest smaller number than n.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,90,True,Passed,0.57,103,22,125,Write a python function to find the length of the longest word.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,91,True,Passed,2.11,115,101,216,Write a function to check if a string is present as a substring in a given list of string values.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,92,False,AssertionError,1.40,106,65,171,Write a function to check whether the given number is undulating or not.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,93,True,Passed,0.45,107,16,123,Write a function to calculate the value of 'a' to the power 'b'.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,94,True,Passed,0.65,113,26,139,"Given a list of tuples, write a function that returns the first value of the tuple with the smallest second value."
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,95,True,Passed,0.55,108,21,129,Write a python function to find the length of the smallest list in a list of lists.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,96,True,Passed,1.50,104,69,173,Write a python function to find the number of divisors of a given integer.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,97,True,Passed,1.52,111,71,182,"Write a function to find frequency of each element in a flattened list of lists, returned in a dictionary."
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,98,True,Passed,0.78,109,33,142,Write a function to multiply all the numbers in a list and divide with the length of the list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,99,False,AssertionError,0.47,113,17,130,"Write a function to convert the given decimal number to its binary equivalent, represented as a string with no leading zeros."
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,100,False,AssertionError,2.87,111,140,251,"Write a function to find the next smallest palindrome of a specified integer, returned as an integer."
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,101,False,AssertionError,0.99,111,44,155,Write a function to find the kth element in the given array using 1-based indexing.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,102,False,AssertionError,0.85,105,37,142,Write a function to convert a snake case string to camel case string.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,103,False,AssertionError,2.96,106,145,251,"Write a function to find the Eulerian number a(n, m)."
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,104,True,Passed,0.61,107,24,131,Write a function to sort each sublist of strings in a given list of lists.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,105,True,Passed,0.64,102,26,128,Write a python function to count true booleans in the given list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,106,False,"Exception: TypeError - can only concatenate tuple (not ""list"") to tuple",0.60,107,23,130,Write a function to append the given list to the given tuples.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,108,True,Passed,2.81,108,137,245,Write a function to merge three lists into a single sorted list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,109,False,AssertionError,1.25,117,57,174,Write a python function to find the number of numbers with an odd value when rotating a binary string the given number of times.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,111,False,AssertionError,4.97,106,245,351,Write a function to find the common elements in given nested lists.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,113,False,AssertionError,0.68,103,28,131,Write a function to check if a string represents an integer or not.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,116,False,AssertionError,0.84,106,36,142,Write a function to convert a given tuple of positive integers into a single integer.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,118,False,AssertionError,0.43,108,15,123,Write a function to convert a string to a list of strings split on the space character.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,119,False,TimeoutError: Execution timed out (possible infinite loop in generated code),8.67,105,180,285,Write a python function to find the element that appears only once in a sorted array.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,120,False,AssertionError,1.93,111,89,200,Write a function to find the maximum absolute product between numbers in pairs of tuples within a given list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,123,False,Exception: NameError - name 'amicable_numbers_sum' is not defined,3.25,106,159,265,Write a function to sum all amicable numbers from 1 to a specified number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,124,False,Exception: TypeError - '>' not supported between instances of 'complex' and 'int',1.57,102,74,176,Write a function to get the angle of a complex number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,125,False,AssertionError,1.48,120,66,186,Write a function to find the maximum difference between the number of 0s and number of 1s in any sub-string of the given binary string.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,126,False,Exception: TypeError - sum() missing 1 required positional argument: 'b',2.28,106,110,216,Write a python function to find the sum of common divisors of two given numbers.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,127,True,Passed,0.47,99,17,116,Write a function to multiply two integers.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,128,False,AssertionError,0.64,110,26,136,Write a function to find words that are longer than n characters from a given list of words.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,129,False,AssertionError,8.50,104,417,521,Write a function to calculate whether the matrix is a magic square.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,130,False,AssertionError,2.04,105,97,202,Write a function to find the item with maximum frequency in a given list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,131,False,AssertionError,2.50,113,121,234,Write a python function to reverse only the vowels of a given string (where y is not a vowel).
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,132,False,AssertionError,0.49,102,18,120,Write a function to convert a tuple to a string.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,133,True,Passed,0.64,110,26,136,Write a function to calculate the sum of the negative numbers of a given list of numbers.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,135,False,AssertionError,2.53,101,123,224,Write a function to find the nth hexagonal number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,137,False,Exception: ZeroDivisionError - Cannot calculate ratio with no non-zero values,2.60,108,126,234,Write a function to find the ratio of zeroes to non-zeroes in an array of integers.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,138,False,TimeoutError: Execution timed out (possible infinite loop in generated code),6.50,120,67,187,Write a python function to check whether the given number can be represented as sum of non-zero powers of 2 or not.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,139,True,Passed,0.68,103,25,128,Write a function to find the circumference of a circle.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,140,False,AssertionError,0.67,107,27,134,Write a function to flatten the list of lists into a single set of numbers.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,141,True,Passed,2.01,100,96,196,Write a function to sort a list of elements.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,142,True,Passed,0.96,114,42,156,Write a function to count number items that are identical in the same position of three given lists.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,145,False,Exception: ValueError - max() arg is an empty sequence,0.78,110,33,143,Write a python function to find the maximum difference between any two elements in a given array.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,160,False,"Exception: ValueError - not enough values to unpack (expected 4, got 3)",6.86,121,334,455,"Write a function that returns integers x and y that satisfy ax + by = n as a tuple, or return None if no solution exists."
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,161,True,Passed,0.70,109,29,138,Write a function to remove all elements from a given list present in another list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,162,True,Passed,1.09,137,30,167,"Write a function to calculate the sum (n - 2*i) from i=0 to n // 2, for instance n + (n-2) + (n-4)... (until n-x =< 0)."
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,165,False,AssertionError,5.03,121,244,365,Write a function to count the number of characters in a string that occur at the same position in the string as in the English alphabet (case insensitive).
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,166,True,Passed,1.38,111,64,175,Write a function that counts the number of pairs of integers in a list that xor to an even number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,167,True,Passed,0.88,111,38,149,Write a python function to find the smallest power of 2 greater than or equal to n.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,168,True,Passed,0.46,106,16,122,Write a function to count the number of occurrences of a number in a given list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,170,False,AssertionError,0.60,115,23,138,Write a function to find the sum of numbers in a list within a range specified by two indices.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,171,True,Passed,2.42,110,117,227,Write a function to find the perimeter of a regular pentagon from the length of its sides.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,172,True,Passed,0.49,112,18,130,Write a function to count the number of occurence of the string 'std' in a given string.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,222,True,Passed,0.99,108,44,152,Write a function to check if all the elements in tuple have same data type or not.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,223,False,AssertionError,2.39,143,112,255,"Write a function that takes in a sorted array, its length (n), and an element and returns whether the element is the majority element in the given sorted array. (The majority element is the element that occurs more than n/2 times.)"
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,224,True,Passed,0.90,115,39,154,Write a python function to count the number of set bits (binary digits with value 1) in a given number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,226,True,Passed,0.82,109,35,144,Write a python function to remove the characters which have odd index values of a given string.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,227,True,Passed,0.58,102,23,125,Write a function to find minimum of three numbers.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,230,True,Passed,0.55,118,21,139,"Write a function that takes in a string and character, replaces blank spaces in the string with the character, and returns the string."
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,232,True,Passed,0.61,118,24,142,Write a function that takes in a list and an integer n and returns a list containing the n largest items from the list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,233,True,Passed,1.74,108,82,190,Write a function to find the lateral surface area of a cylinder.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,234,True,Passed,1.65,104,78,182,Write a function to find the volume of a cube given its side length.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,235,False,AssertionError,1.07,105,48,153,Write a python function to set all even bits of a given number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,237,False,AssertionError,4.48,121,217,338,Write a function that takes in a list of tuples and returns a dictionary mapping each unique tuple to the number of times it occurs in the list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,238,True,Passed,1.22,110,55,165,Write a python function to count the number of non-empty substrings of a given string.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,239,False,Exception: IndexError - list index out of range,6.19,143,300,443,"Write a function that takes in positive integers m and n and finds the number of possible sequences of length n, such that each element is a positive integer and is greater than or equal to twice the previous element but less than or equal to m."
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,240,False,AssertionError,1.04,118,46,164,Write a function that takes in two lists and replaces the last element of the first list with the elements of the second list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,242,True,Passed,0.47,105,17,122,Write a function to count the total number of characters in a string.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,244,False,AssertionError,1.54,108,72,180,Write a python function to find the next perfect square greater than a given number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,245,False,AssertionError,4.12,127,199,326,"Write a function that takes an array and finds the maximum sum of a bitonic subsequence for the given array, where a sequence is bitonic if it is first increasing and then decreasing."
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,247,False,AssertionError,4.05,111,199,310,Write a function to find the length of the longest palindromic subsequence in the given string.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,250,True,Passed,0.49,118,18,136,Write a python function that takes in a tuple and an element and counts the occcurences of the element in the tuple.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,251,False,AssertionError,0.71,120,26,146,"Write a function that takes in a list and an element and inserts the element before each element in the list, and returns the resulting list."
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,252,False,Exception: TypeError - 'complex' object is not iterable,0.66,100,27,127,Write a python function to convert complex numbers to polar coordinates.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,253,True,Passed,0.64,106,26,132,Write a python function that returns the number of integer elements in a given list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,255,True,Passed,4.69,128,28,156,"Write a function that takes in a list and length n, and generates all combinations (with repetition) of the elements of the list and returns a list with a tuple for each combination."
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,256,True,Passed,2.19,117,100,217,Write a python function that takes in a non-negative number and returns the number of prime numbers less than the given non-negative number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,257,True,Passed,0.47,112,17,129,Write a function that takes in two numbers and returns a tuple with the second number and then the first number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,259,False,AssertionError,0.95,107,41,148,Write a function to maximize the given two tuples.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,260,False,AssertionError,2.25,108,108,216,Write a function to find the nth newman–shanks–williams prime number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,261,True,Passed,5.36,117,264,381,Write a function that takes in two tuples and performs mathematical division operation element-wise across the given tuples.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,262,True,Passed,1.14,135,48,183,"Write a function that takes in a list and an integer L and splits the given list into two parts where the length of the first part of the list is L, and returns the resulting lists in a tuple."
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,264,False,AssertionError,3.40,104,165,269,Write a function to calculate a dog's age in dog's years.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,265,False,AssertionError,0.84,120,32,152,"Write a function that takes in a list and an integer n and splits a list for every nth element, returning a list of the resulting lists."
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,266,True,Passed,3.23,108,156,264,Write a function to find the lateral surface area of a cube given its side length.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,267,False,AssertionError,0.78,115,33,148,Write a python function that takes in an integer n and returns the sum of the squares of the first n odd natural numbers.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,268,False,AssertionError,0.83,102,36,138,Write a function to find the n'th star number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,269,True,Passed,0.41,101,14,115,Write a function to find the ascii value of a character.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,270,True,Passed,0.93,110,41,151,Write a python function to find the sum of even numbers at even positions of a list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,271,False,AssertionError,0.82,121,32,153,Write a python function that takes in an integer n and finds the sum of the first n even natural numbers that are raised to the fifth power.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,272,True,Passed,0.59,112,23,135,Write a function that takes in a list of tuples and returns a list containing the rear element of each tuple.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,273,True,Passed,0.98,127,40,167,Write a function that takes in two tuples and subtracts the elements of the first tuple by the elements of the second tuple with the same index.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,274,True,Passed,2.07,117,99,216,Write a python function that takes in a positive integer n and finds the sum of even index binomial coefficients.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,276,True,Passed,0.66,110,27,137,Write a function that takes in the radius and height of a cylinder and returns the the volume.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,277,True,Passed,0.82,120,32,152,Write a function that takes in a dictionary and integer n and filters the dictionary to only include entries with values greater than or equal to n.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,278,False,AssertionError,3.53,112,173,285,Write a function to find the number of elements that occurs before the tuple element in the given tuple.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,279,False,AssertionError,1.39,102,63,165,Write a function to find the nth decagonal number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,280,True,Passed,2.53,136,119,255,Write a function that takes in an array and element and returns a tuple containing a boolean that indicates if the element is in the array and the index position of the element (or -1 if the element is not found).
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,281,True,Passed,0.57,108,22,130,Write a python function to check if the elements of a given list are unique or not.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,282,True,Passed,0.74,103,31,134,Write a function to subtract two lists element-wise.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,283,False,AssertionError,0.94,117,41,158,Write a python function takes in an integer and check whether the frequency of each digit in the integer is less than or equal to the digit itself.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,284,True,Passed,0.61,117,24,141,Write a function that takes in a list and element and checks whether all items in the list are equal to the given element.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,285,False,AssertionError,0.88,115,38,153,Write a function that checks whether a string contains the 'a' character followed by two or three 'b' characters.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,286,True,Passed,1.87,124,86,210,Write a function to find the largest sum of a contiguous array in the modified array which is formed by repeating the given array k times.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,287,False,AssertionError,0.72,112,30,142,Write a python function takes in an integer n and returns the sum of squares of first n even natural numbers.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,290,False,AssertionError,1.19,106,54,160,Write a function to find the list of maximum length in a list of lists.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,292,True,Passed,0.45,107,16,123,Write a python function to find quotient of two numbers (rounded down to the nearest integer).
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,293,True,Passed,2.30,106,111,217,Write a function to find the third side of a right angled triangle.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,294,False,Exception: TypeError - '>' not supported between instances of 'int' and 'str',0.45,104,16,120,Write a function to find the maximum value in a given heterogeneous list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,296,True,Passed,4.54,103,224,327,Write a python function to count inversions in an array.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,297,True,Passed,3.21,101,157,258,Write a function to flatten a given nested list structure.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,299,False,Exception: TypeError - unsupported operand type(s) for +: 'int' and 'str',3.16,105,155,260,Write a function to calculate the maximum aggregate from the list of tuples.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,300,False,Exception: TypeError - unsupported operand type(s) for +: 'int' and 'list',3.03,122,145,267,Write a function to find the count of all binary sequences of length 2n such that sum of first n bits is same as sum of last n bits.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,301,False,Exception: NameError - name 'dict_depth' is not defined,1.54,101,69,170,Write a function to find the depth of a dictionary.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,305,False,AssertionError,0.82,108,35,143,Write a function to return two words from a list of words starting with letter 'p'.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,306,False,Exception: NameError - name 'memo' is not defined,2.63,136,124,260,"Write a function to find the maximum sum of increasing subsequence from prefix until ith index and also including a given kth element which is after i, i.e., k > i ."
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,308,False,AssertionError,4.05,118,199,317,"Write a function to find the specified number of largest products from two given lists, selecting one factor from each list."
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,309,True,Passed,0.66,101,27,128,Write a python function to find the maximum of two numbers.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,310,False,AssertionError,0.47,105,17,122,Write a function to convert a given string to a tuple of characters.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,311,False,AssertionError,0.84,104,36,140,Write a python function to set the left most unset bit.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,312,True,Passed,0.74,102,31,133,Write a function to find the volume of a cone.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,388,True,Passed,1.02,114,45,159,Write a python function to find the highest power of 2 that is less than or equal to n.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,389,True,Passed,1.61,103,76,179,Write a function to find the n'th lucas number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,390,True,Passed,0.61,109,24,133,Write a function to apply a given format string to all of the elements in a list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,391,False,AssertionError,4.60,110,226,336,Write a function to convert more than one list to nested dictionary.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,392,False,AssertionError,2.39,137,112,249,"Write a function to find the maximum sum possible by using the given equation f(n) = max( (f(n/2) + f(n/3) + f(n/4) + f(n/5)), n)."
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,394,True,Passed,0.64,104,26,130,Write a function to check if given tuple contains no duplicates.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,395,True,Passed,1.65,110,78,188,Write a python function to find the first non-repeated character in a given string.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,397,True,Passed,1.57,102,74,176,Write a function to find the median of three numbers.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,398,False,AssertionError,0.72,107,30,137,Write a function to compute the sum of digits of each number of a given list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,404,True,Passed,0.53,101,20,121,Write a python function to find the minimum of two numbers.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,405,True,Passed,0.57,108,22,130,Write a function to check whether an element exists within a tuple.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,406,True,Passed,0.53,106,20,126,Write a python function to find whether the parity of a given number is odd.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,409,False,AssertionError,2.07,109,99,208,Write a function to find the minimum product from the pairs of tuples within a given list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,410,False,Exception: TypeError - '<' not supported between instances of 'int' and 'str',0.45,104,16,120,Write a function to find the minimum value in a given heterogeneous list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,412,True,Passed,0.64,102,26,128,Write a python function to remove odd numbers from a given list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,413,False,Exception: ValueError - n is out of range,1.00,108,44,152,Write a function to extract the nth element from a given list of tuples.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,414,True,Passed,0.63,110,25,135,Write a python function to check whether any value in a sequence exists in a sequence or not.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,415,False,AssertionError,1.95,107,93,200,Write a python function to find a pair with highest product from a given array of integers.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,418,True,Passed,1.05,104,47,151,Write a python function to find the element of a list having maximum length.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,419,False,AssertionError,1.07,117,48,165,Write a function to round every number of a given list of numbers and print the total sum multiplied by the length of the list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,420,True,Passed,3.04,106,149,255,Write a python function to find the cube sum of first n even natural numbers.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,421,False,AssertionError,1.71,104,81,185,Write a function to concatenate each element of tuple by the delimiter.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,422,True,Passed,2.97,109,145,254,Write a python function to find the average of cubes of first n natural numbers.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,424,True,Passed,0.61,109,24,133,Write a function to extract only the rear index element of each string in the given tuple.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,425,False,AssertionError,0.55,109,21,130,Write a function to count the number of sublists containing a particular element.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,426,True,Passed,0.66,98,27,125,Write a function to filter odd numbers.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,427,False,Exception: ValueError - unconverted data remains: 6,0.92,108,40,148,Write a function to convert a date of yyyy-mm-dd format to dd-mm-yyyy format.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,428,False,AssertionError,2.08,103,100,203,Write a function to sort the given array by using shell sort.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,429,False,AssertionError,0.71,113,29,142,Write a function to extract the elementwise and tuples from the given two tuples.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,430,False,AssertionError,3.47,110,170,280,Write a function to find the directrix of a parabola.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,432,False,AssertionError,5.30,112,261,373,Write a function to find the median length of a trapezium.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,433,False,AssertionError,0.57,110,22,132,Write a function to check whether the entered number is greater than the elements of the given array.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,435,False,Exception: NameError - name 'last_Digit' is not defined,0.45,102,16,118,Write a python function to find the last digit of a given number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,436,True,Passed,0.64,104,26,130,Write a python function to return the negative numbers in a list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,437,False,AssertionError,0.76,101,32,133,Write a function to remove odd characters in a string.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,439,False,AssertionError,0.84,105,36,141,Write a function to join a list of multiple integers into a single integer.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,440,False,"Exception: SyntaxError - unterminated string literal (detected at line 8) (<string>, line 8)",10.49,108,512,620,Write a function to find the first adverb and their positions in a given sentence.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,441,True,Passed,0.55,106,21,127,Write a function to find the surface area of a cube of a given size.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,445,False,Exception: TypeError - can't multiply sequence by non-int of type 'tuple',4.32,115,212,327,Write a function to perform index wise multiplication of tuple elements in the given two tuples.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,446,False,AssertionError,0.70,112,29,141,Write a python function to count the occurence of all elements of list in a tuple.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,447,True,Passed,0.55,102,21,123,Write a function to find cubes of individual elements in a list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,448,False,AssertionError,5.00,102,246,348,Write a function to calculate the sum of perrin numbers.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,450,False,AssertionError,0.74,109,31,140,Write a function to extract specified size of strings from a given list of string values.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,451,True,Passed,0.53,105,20,125,Write a function to remove all whitespaces from the given string.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,453,False,Exception: NameError - name 'sumofFactors' is not defined,1.32,103,61,164,Write a python function to find the sum of even factors of a number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,454,True,Passed,0.72,102,30,132,Write a function that matches a word containing 'z'.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,455,False,AssertionError,2.20,111,106,217,Write a function to check whether the given month number contains 31 days or not.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,456,True,Passed,0.61,106,24,130,Write a function to reverse each string in a given list of string values.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,457,True,Passed,0.48,101,17,118,Write a python function to find the sublist having minimum length.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,458,True,Passed,1.95,101,93,194,Write a function to find the area of a rectangle.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,459,False,AssertionError,1.03,104,46,150,Write a function to remove uppercase substrings from a given string.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,460,True,Passed,0.55,101,21,122,Write a python function to get the first element of each sublist.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,462,False,AssertionError,1.72,106,74,180,Write a function to find all possible combinations of the elements of a given list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,463,True,Passed,2.44,106,118,224,Write a function to find the maximum product subarray of the given array.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,465,False,AssertionError,0.69,102,28,130,Write a function to drop empty items from a given dictionary.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,468,False,AssertionError,1.64,110,77,187,Write a function to find the maximum product formed by multiplying numbers of an increasing subsequence of that array.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,470,False,AssertionError,1.13,109,51,160,Write a function to find the pairwise addition of the neighboring elements of the given tuple.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,471,True,Passed,1.98,107,95,202,Write a python function to find the product of the array multiplication modulo n.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,472,False,AssertionError,1.36,106,63,169,Write a python function to check whether the given list contains consecutive numbers or not.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,473,False,AssertionError,0.71,115,29,144,Write a function to find the tuple intersection of elements in the given tuple list irrespective of their order.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,474,True,Passed,0.62,105,25,130,Write a function to replace characters in a string.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,475,False,AssertionError,0.64,100,26,126,Write a function to sort a dictionary by value.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,476,True,Passed,0.49,108,18,126,Write a python function to find the sum of the largest and smallest value in a given array.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,477,True,Passed,0.41,102,14,116,Write a python function to convert the given string to lower case.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,478,True,Passed,0.96,103,42,145,Write a function to remove lowercase substrings from a given string.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,479,False,Exception: NameError - name 'first_Digit' is not defined,0.93,102,41,143,Write a python function to find the first digit of a given number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,11,False,AssertionError,2.09,109,55,164,Write a python function to remove first and last occurrence of a given character from the string.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,12,True,Passed,0.75,108,17,125,Write a function to sort a given matrix in ascending order according to the sum of its rows.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,14,False,Exception: NameError - name 'find_Volume' is not defined,2.79,101,84,185,Write a python function to find the volume of a triangular prism.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,16,False,AssertionError,0.95,115,24,139,Write a function to that returns true if the input string contains sequences of lowercase letters joined with an underscore and false otherwise.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,17,True,Passed,0.72,107,17,124,Write a function that returns the perimeter of a square given its side length as input.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,18,True,Passed,1.08,111,30,141,Write a function to remove characters from the first string which are present in the second string.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,19,True,Passed,0.88,106,22,128,Write a function to find whether a given array of integers contains any duplicate element.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,20,False,AssertionError,3.60,106,103,209,Write a function to check if the given number is woodball or not.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,56,False,Exception: NameError - name 'num' is not defined,1.25,106,33,139,Write a python function to check if a given number is one less than twice its reverse.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,57,False,Exception: NameError - name 'find_Max_Num' is not defined,3.21,108,91,199,Write a python function to find the largest number that can be formed with the given list of digits.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,58,True,Passed,0.94,109,23,132,Write a python function to check whether the given two integers have opposite sign or not.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,59,False,AssertionError,6.00,101,179,280,Write a function to find the nth octagonal number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,61,False,AssertionError,3.83,111,113,224,Write a python function to count the number of substrings with the sum of digits equal to their length.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,62,True,Passed,0.63,101,14,115,Write a python function to find smallest number in a list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,63,False,Exception: TypeError - unsupported operand type(s) for -: 'tuple' and 'tuple',3.63,107,105,212,Write a function to find the maximum difference between available pairs in the given tuple list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,64,True,Passed,0.99,107,24,131,Write a function to sort a list of tuples using the second value of each tuple.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,65,False,"Exception: TypeError - can only concatenate list (not ""int"") to list",1.96,105,55,160,Write a function to flatten a list and sum all of its elements.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,66,True,Passed,0.98,104,24,128,Write a python function to count the number of positive numbers in a list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,67,False,AssertionError,7.93,106,239,345,Write a function to find the number of ways to partition a set of Bell numbers.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,68,True,Passed,2.43,108,71,179,Write a python function to check whether the given array is monotonic or not.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,69,True,Passed,2.16,107,60,167,Write a function to check whether a list contains the given sublist or not.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,70,True,Passed,1.05,105,26,131,Write a function to find whether all the given tuples have equal length or not.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,71,False,TimeoutError: Execution timed out (possible infinite loop in generated code),10.09,99,152,251,Write a function to sort a list of elements.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,72,False,AssertionError,2.02,112,56,168,Write a python function to check whether the given number can be represented as the difference of two squares or not.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,74,False,AssertionError,3.12,108,89,197,Write a function to check whether it follows the sequence given in the patterns array.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,75,True,Passed,3.30,112,96,208,Write a function to find tuples which have all elements divisible by k from the given list of tuples.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,77,False,AssertionError,1.50,105,40,145,Write a python function to find whether a number is divisible by 11.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,79,True,Passed,0.83,106,21,127,Write a python function to check whether the length of the word is odd or not.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,80,False,AssertionError,3.59,103,104,207,Write a function to find the nth tetrahedral number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,82,True,Passed,2.92,100,86,186,Write a function to find the volume of a sphere.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,84,False,AssertionError,8.17,104,242,346,Write a function to find the nth number in the newman conway sequence.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,85,True,Passed,1.03,102,26,128,Write a function to find the surface area of a sphere.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,86,False,AssertionError,3.72,102,108,210,Write a function to find nth centered hexagonal number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,87,True,Passed,8.78,110,260,370,Write a function to merge three dictionaries into a single dictionary.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,88,True,Passed,1.05,110,27,137,"Write a function to get the frequency of all the elements in a list, returned as a dictionary."
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,89,False,AssertionError,3.83,101,112,213,Write a function to find the closest smaller number than n.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,90,True,Passed,0.88,103,22,125,Write a python function to find the length of the longest word.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,91,True,Passed,3.41,115,101,216,Write a function to check if a string is present as a substring in a given list of string values.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,92,False,AssertionError,2.24,106,65,171,Write a function to check whether the given number is undulating or not.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,93,True,Passed,0.69,107,16,123,Write a function to calculate the value of 'a' to the power 'b'.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,94,True,Passed,1.01,113,26,139,"Given a list of tuples, write a function that returns the first value of the tuple with the smallest second value."
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,95,True,Passed,0.89,108,21,129,Write a python function to find the length of the smallest list in a list of lists.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,96,True,Passed,2.40,104,69,173,Write a python function to find the number of divisors of a given integer.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,97,True,Passed,2.54,111,71,182,"Write a function to find frequency of each element in a flattened list of lists, returned in a dictionary."
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,98,True,Passed,1.25,109,33,142,Write a function to multiply all the numbers in a list and divide with the length of the list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,99,False,AssertionError,0.75,113,17,130,"Write a function to convert the given decimal number to its binary equivalent, represented as a string with no leading zeros."
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,100,False,AssertionError,4.69,111,140,251,"Write a function to find the next smallest palindrome of a specified integer, returned as an integer."
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,101,False,AssertionError,1.59,111,44,155,Write a function to find the kth element in the given array using 1-based indexing.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,102,False,AssertionError,1.38,105,37,142,Write a function to convert a snake case string to camel case string.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,103,False,AssertionError,4.94,106,145,251,"Write a function to find the Eulerian number a(n, m)."
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,104,True,Passed,1.00,107,24,131,Write a function to sort each sublist of strings in a given list of lists.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,105,True,Passed,1.05,102,26,128,Write a python function to count true booleans in the given list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,106,False,"Exception: TypeError - can only concatenate tuple (not ""list"") to tuple",0.94,107,23,130,Write a function to append the given list to the given tuples.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,108,True,Passed,4.70,108,137,245,Write a function to merge three lists into a single sorted list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,109,False,AssertionError,2.03,117,57,174,Write a python function to find the number of numbers with an odd value when rotating a binary string the given number of times.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,111,False,AssertionError,8.32,106,245,351,Write a function to find the common elements in given nested lists.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,113,False,AssertionError,1.08,103,28,131,Write a function to check if a string represents an integer or not.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,116,False,AssertionError,1.35,106,36,142,Write a function to convert a given tuple of positive integers into a single integer.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,118,False,AssertionError,0.66,108,15,123,Write a function to convert a string to a list of strings split on the space character.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,119,False,TimeoutError: Execution timed out (possible infinite loop in generated code),11.00,105,180,285,Write a python function to find the element that appears only once in a sorted array.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,120,False,AssertionError,3.10,111,89,200,Write a function to find the maximum absolute product between numbers in pairs of tuples within a given list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,123,False,Exception: NameError - name 'amicable_numbers_sum' is not defined,4.78,106,159,265,Write a function to sum all amicable numbers from 1 to a specified number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,124,False,Exception: TypeError - '>' not supported between instances of 'complex' and 'int',1.54,102,74,176,Write a function to get the angle of a complex number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,125,False,AssertionError,2.43,120,66,186,Write a function to find the maximum difference between the number of 0s and number of 1s in any sub-string of the given binary string.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,126,False,Exception: TypeError - sum() missing 1 required positional argument: 'b',3.71,106,110,216,Write a python function to find the sum of common divisors of two given numbers.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,127,True,Passed,0.74,99,17,116,Write a function to multiply two integers.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,128,False,AssertionError,1.02,110,26,136,Write a function to find words that are longer than n characters from a given list of words.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,129,False,AssertionError,14.30,104,417,521,Write a function to calculate whether the matrix is a magic square.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,130,False,AssertionError,3.32,105,97,202,Write a function to find the item with maximum frequency in a given list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,131,False,AssertionError,4.08,113,121,234,Write a python function to reverse only the vowels of a given string (where y is not a vowel).
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,132,False,AssertionError,0.77,102,18,120,Write a function to convert a tuple to a string.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,133,True,Passed,0.97,110,26,136,Write a function to calculate the sum of the negative numbers of a given list of numbers.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,135,False,AssertionError,4.13,101,123,224,Write a function to find the nth hexagonal number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,137,False,Exception: ZeroDivisionError - Cannot calculate ratio with no non-zero values,4.22,108,126,234,Write a function to find the ratio of zeroes to non-zeroes in an array of integers.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,138,False,TimeoutError: Execution timed out (possible infinite loop in generated code),7.40,120,67,187,Write a python function to check whether the given number can be represented as sum of non-zero powers of 2 or not.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,139,True,Passed,1.00,103,25,128,Write a function to find the circumference of a circle.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,140,False,AssertionError,1.06,107,27,134,Write a function to flatten the list of lists into a single set of numbers.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,141,True,Passed,3.30,100,96,196,Write a function to sort a list of elements.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,142,True,Passed,1.55,114,42,156,Write a function to count number items that are identical in the same position of three given lists.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,145,False,Exception: ValueError - max() arg is an empty sequence,1.25,110,33,143,Write a python function to find the maximum difference between any two elements in a given array.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,160,False,"Exception: ValueError - not enough values to unpack (expected 4, got 3)",11.33,121,334,455,"Write a function that returns integers x and y that satisfy ax + by = n as a tuple, or return None if no solution exists."
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,161,True,Passed,1.14,109,29,138,Write a function to remove all elements from a given list present in another list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,162,True,Passed,1.57,137,30,167,"Write a function to calculate the sum (n - 2*i) from i=0 to n // 2, for instance n + (n-2) + (n-4)... (until n-x =< 0)."
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,165,False,AssertionError,8.29,121,244,365,Write a function to count the number of characters in a string that occur at the same position in the string as in the English alphabet (case insensitive).
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,166,True,Passed,2.30,111,64,175,Write a function that counts the number of pairs of integers in a list that xor to an even number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,167,True,Passed,1.41,111,38,149,Write a python function to find the smallest power of 2 greater than or equal to n.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,168,True,Passed,0.73,106,16,122,Write a function to count the number of occurrences of a number in a given list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,170,False,AssertionError,0.95,115,23,138,Write a function to find the sum of numbers in a list within a range specified by two indices.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,171,True,Passed,4.01,110,117,227,Write a function to find the perimeter of a regular pentagon from the length of its sides.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,172,True,Passed,0.76,112,18,130,Write a function to count the number of occurence of the string 'std' in a given string.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,222,True,Passed,1.63,108,44,152,Write a function to check if all the elements in tuple have same data type or not.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,223,False,AssertionError,3.86,143,112,255,"Write a function that takes in a sorted array, its length (n), and an element and returns whether the element is the majority element in the given sorted array. (The majority element is the element that occurs more than n/2 times.)"
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,224,True,Passed,1.41,115,39,154,Write a python function to count the number of set bits (binary digits with value 1) in a given number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,226,True,Passed,1.28,109,35,144,Write a python function to remove the characters which have odd index values of a given string.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,227,True,Passed,0.91,102,23,125,Write a function to find minimum of three numbers.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,230,True,Passed,0.88,118,21,139,"Write a function that takes in a string and character, replaces blank spaces in the string with the character, and returns the string."
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,232,True,Passed,0.98,118,24,142,Write a function that takes in a list and an integer n and returns a list containing the n largest items from the list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,233,True,Passed,2.87,108,82,190,Write a function to find the lateral surface area of a cylinder.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,234,True,Passed,2.75,104,78,182,Write a function to find the volume of a cube given its side length.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,235,False,AssertionError,1.75,105,48,153,Write a python function to set all even bits of a given number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,237,False,AssertionError,7.52,121,217,338,Write a function that takes in a list of tuples and returns a dictionary mapping each unique tuple to the number of times it occurs in the list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,238,True,Passed,1.96,110,55,165,Write a python function to count the number of non-empty substrings of a given string.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,239,False,Exception: IndexError - list index out of range,10.15,143,300,443,"Write a function that takes in positive integers m and n and finds the number of possible sequences of length n, such that each element is a positive integer and is greater than or equal to twice the previous element but less than or equal to m."
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,240,False,AssertionError,1.65,118,46,164,Write a function that takes in two lists and replaces the last element of the first list with the elements of the second list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,242,True,Passed,0.75,105,17,122,Write a function to count the total number of characters in a string.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,244,False,AssertionError,2.58,108,72,180,Write a python function to find the next perfect square greater than a given number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,245,False,AssertionError,6.67,127,199,326,"Write a function that takes an array and finds the maximum sum of a bitonic subsequence for the given array, where a sequence is bitonic if it is first increasing and then decreasing."
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,247,False,AssertionError,6.77,111,199,310,Write a function to find the length of the longest palindromic subsequence in the given string.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,250,True,Passed,0.77,118,18,136,Write a python function that takes in a tuple and an element and counts the occcurences of the element in the tuple.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,251,False,AssertionError,1.15,120,26,146,"Write a function that takes in a list and an element and inserts the element before each element in the list, and returns the resulting list."
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,252,False,Exception: TypeError - 'complex' object is not iterable,1.06,100,27,127,Write a python function to convert complex numbers to polar coordinates.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,253,True,Passed,1.03,106,26,132,Write a python function that returns the number of integer elements in a given list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,255,True,Passed,5.78,128,28,156,"Write a function that takes in a list and length n, and generates all combinations (with repetition) of the elements of the list and returns a list with a tuple for each combination."
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,256,True,Passed,3.68,117,100,217,Write a python function that takes in a non-negative number and returns the number of prime numbers less than the given non-negative number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,257,True,Passed,0.74,112,17,129,Write a function that takes in two numbers and returns a tuple with the second number and then the first number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,259,False,AssertionError,1.50,107,41,148,Write a function to maximize the given two tuples.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,260,False,AssertionError,3.68,108,108,216,Write a function to find the nth newman–shanks–williams prime number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,261,True,Passed,8.82,117,264,381,Write a function that takes in two tuples and performs mathematical division operation element-wise across the given tuples.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,262,True,Passed,1.84,135,48,183,"Write a function that takes in a list and an integer L and splits the given list into two parts where the length of the first part of the list is L, and returns the resulting lists in a tuple."
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,264,False,AssertionError,5.61,104,165,269,Write a function to calculate a dog's age in dog's years.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,265,False,AssertionError,1.33,120,32,152,"Write a function that takes in a list and an integer n and splits a list for every nth element, returning a list of the resulting lists."
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,266,True,Passed,5.19,108,156,264,Write a function to find the lateral surface area of a cube given its side length.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,267,False,AssertionError,1.28,115,33,148,Write a python function that takes in an integer n and returns the sum of the squares of the first n odd natural numbers.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,268,False,AssertionError,1.35,102,36,138,Write a function to find the n'th star number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,269,True,Passed,0.61,101,14,115,Write a function to find the ascii value of a character.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,270,True,Passed,1.49,110,41,151,Write a python function to find the sum of even numbers at even positions of a list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,271,False,AssertionError,1.26,121,32,153,Write a python function that takes in an integer n and finds the sum of the first n even natural numbers that are raised to the fifth power.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,272,True,Passed,0.91,112,23,135,Write a function that takes in a list of tuples and returns a list containing the rear element of each tuple.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,273,True,Passed,1.61,127,40,167,Write a function that takes in two tuples and subtracts the elements of the first tuple by the elements of the second tuple with the same index.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,274,True,Passed,3.53,117,99,216,Write a python function that takes in a positive integer n and finds the sum of even index binomial coefficients.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,276,True,Passed,1.04,110,27,137,Write a function that takes in the radius and height of a cylinder and returns the the volume.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,277,True,Passed,1.34,120,32,152,Write a function that takes in a dictionary and integer n and filters the dictionary to only include entries with values greater than or equal to n.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,278,False,AssertionError,5.72,112,173,285,Write a function to find the number of elements that occurs before the tuple element in the given tuple.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,279,False,AssertionError,2.24,102,63,165,Write a function to find the nth decagonal number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,280,True,Passed,4.16,136,119,255,Write a function that takes in an array and element and returns a tuple containing a boolean that indicates if the element is in the array and the index position of the element (or -1 if the element is not found).
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,281,True,Passed,0.92,108,22,130,Write a python function to check if the elements of a given list are unique or not.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,282,True,Passed,1.21,103,31,134,Write a function to subtract two lists element-wise.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,283,False,AssertionError,1.49,117,41,158,Write a python function takes in an integer and check whether the frequency of each digit in the integer is less than or equal to the digit itself.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,284,True,Passed,0.95,117,24,141,Write a function that takes in a list and element and checks whether all items in the list are equal to the given element.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,285,False,AssertionError,1.43,115,38,153,Write a function that checks whether a string contains the 'a' character followed by two or three 'b' characters.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,286,True,Passed,2.95,124,86,210,Write a function to find the largest sum of a contiguous array in the modified array which is formed by repeating the given array k times.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,287,False,AssertionError,1.20,112,30,142,Write a python function takes in an integer n and returns the sum of squares of first n even natural numbers.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,290,False,AssertionError,1.86,106,54,160,Write a function to find the list of maximum length in a list of lists.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,292,True,Passed,0.71,107,16,123,Write a python function to find quotient of two numbers (rounded down to the nearest integer).
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,293,True,Passed,3.70,106,111,217,Write a function to find the third side of a right angled triangle.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,294,False,Exception: TypeError - '>' not supported between instances of 'int' and 'str',0.70,104,16,120,Write a function to find the maximum value in a given heterogeneous list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,296,True,Passed,7.60,103,224,327,Write a python function to count inversions in an array.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,297,True,Passed,5.22,101,157,258,Write a function to flatten a given nested list structure.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,299,False,Exception: TypeError - unsupported operand type(s) for +: 'int' and 'str',5.23,105,155,260,Write a function to calculate the maximum aggregate from the list of tuples.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,300,False,Exception: TypeError - unsupported operand type(s) for +: 'int' and 'list',4.96,122,145,267,Write a function to find the count of all binary sequences of length 2n such that sum of first n bits is same as sum of last n bits.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,301,False,Exception: NameError - name 'dict_depth' is not defined,2.43,101,69,170,Write a function to find the depth of a dictionary.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,305,False,AssertionError,1.32,108,35,143,Write a function to return two words from a list of words starting with letter 'p'.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,306,False,Exception: NameError - name 'memo' is not defined,4.31,136,124,260,"Write a function to find the maximum sum of increasing subsequence from prefix until ith index and also including a given kth element which is after i, i.e., k > i ."
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,308,False,AssertionError,6.92,118,199,317,"Write a function to find the specified number of largest products from two given lists, selecting one factor from each list."
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,309,True,Passed,1.07,101,27,128,Write a python function to find the maximum of two numbers.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,310,False,AssertionError,0.73,105,17,122,Write a function to convert a given string to a tuple of characters.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,311,False,AssertionError,1.39,104,36,140,Write a python function to set the left most unset bit.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,312,True,Passed,1.15,102,31,133,Write a function to find the volume of a cone.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,388,True,Passed,1.62,114,45,159,Write a python function to find the highest power of 2 that is less than or equal to n.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,389,True,Passed,2.66,103,76,179,Write a function to find the n'th lucas number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,390,True,Passed,0.99,109,24,133,Write a function to apply a given format string to all of the elements in a list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,391,False,AssertionError,7.59,110,226,336,Write a function to convert more than one list to nested dictionary.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,392,False,AssertionError,3.95,137,112,249,"Write a function to find the maximum sum possible by using the given equation f(n) = max( (f(n/2) + f(n/3) + f(n/4) + f(n/5)), n)."
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,394,True,Passed,0.99,104,26,130,Write a function to check if given tuple contains no duplicates.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,395,True,Passed,2.64,110,78,188,Write a python function to find the first non-repeated character in a given string.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,397,True,Passed,2.58,102,74,176,Write a function to find the median of three numbers.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,398,False,AssertionError,1.14,107,30,137,Write a function to compute the sum of digits of each number of a given list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,404,True,Passed,0.82,101,20,121,Write a python function to find the minimum of two numbers.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,405,True,Passed,0.95,108,22,130,Write a function to check whether an element exists within a tuple.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,406,True,Passed,0.83,106,20,126,Write a python function to find whether the parity of a given number is odd.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,409,False,AssertionError,3.41,109,99,208,Write a function to find the minimum product from the pairs of tuples within a given list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,410,False,Exception: TypeError - '<' not supported between instances of 'int' and 'str',0.74,104,16,120,Write a function to find the minimum value in a given heterogeneous list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,412,True,Passed,0.98,102,26,128,Write a python function to remove odd numbers from a given list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,413,False,Exception: ValueError - n is out of range,1.61,108,44,152,Write a function to extract the nth element from a given list of tuples.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,414,True,Passed,0.96,110,25,135,Write a python function to check whether any value in a sequence exists in a sequence or not.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,415,False,AssertionError,3.22,107,93,200,Write a python function to find a pair with highest product from a given array of integers.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,418,True,Passed,1.73,104,47,151,Write a python function to find the element of a list having maximum length.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,419,False,AssertionError,1.71,117,48,165,Write a function to round every number of a given list of numbers and print the total sum multiplied by the length of the list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,420,True,Passed,5.06,106,149,255,Write a python function to find the cube sum of first n even natural numbers.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,421,False,AssertionError,2.78,104,81,185,Write a function to concatenate each element of tuple by the delimiter.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,422,True,Passed,5.00,109,145,254,Write a python function to find the average of cubes of first n natural numbers.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,424,True,Passed,0.96,109,24,133,Write a function to extract only the rear index element of each string in the given tuple.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,425,False,AssertionError,0.86,109,21,130,Write a function to count the number of sublists containing a particular element.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,426,True,Passed,1.06,98,27,125,Write a function to filter odd numbers.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,427,False,Exception: ValueError - unconverted data remains: 6,1.44,108,40,148,Write a function to convert a date of yyyy-mm-dd format to dd-mm-yyyy format.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,428,False,AssertionError,3.37,103,100,203,Write a function to sort the given array by using shell sort.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,429,False,AssertionError,1.09,113,29,142,Write a function to extract the elementwise and tuples from the given two tuples.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,430,False,AssertionError,5.74,110,170,280,Write a function to find the directrix of a parabola.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,432,False,AssertionError,8.89,112,261,373,Write a function to find the median length of a trapezium.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,433,False,AssertionError,0.90,110,22,132,Write a function to check whether the entered number is greater than the elements of the given array.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,435,False,Exception: NameError - name 'last_Digit' is not defined,0.72,102,16,118,Write a python function to find the last digit of a given number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,436,True,Passed,0.98,104,26,130,Write a python function to return the negative numbers in a list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,437,False,AssertionError,1.22,101,32,133,Write a function to remove odd characters in a string.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,439,False,AssertionError,1.37,105,36,141,Write a function to join a list of multiple integers into a single integer.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,440,False,"Exception: SyntaxError - unterminated string literal (detected at line 8) (<string>, line 8)",17.68,108,512,620,Write a function to find the first adverb and their positions in a given sentence.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,441,True,Passed,0.85,106,21,127,Write a function to find the surface area of a cube of a given size.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,445,False,Exception: TypeError - can't multiply sequence by non-int of type 'tuple',7.24,115,212,327,Write a function to perform index wise multiplication of tuple elements in the given two tuples.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,446,False,AssertionError,1.14,112,29,141,Write a python function to count the occurence of all elements of list in a tuple.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,447,True,Passed,0.88,102,21,123,Write a function to find cubes of individual elements in a list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,448,False,AssertionError,8.18,102,246,348,Write a function to calculate the sum of perrin numbers.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,450,False,AssertionError,1.20,109,31,140,Write a function to extract specified size of strings from a given list of string values.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,451,True,Passed,0.81,105,20,125,Write a function to remove all whitespaces from the given string.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,453,False,Exception: NameError - name 'sumofFactors' is not defined,2.10,103,61,164,Write a python function to find the sum of even factors of a number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,454,True,Passed,1.11,102,30,132,Write a function that matches a word containing 'z'.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,455,False,AssertionError,3.68,111,106,217,Write a function to check whether the given month number contains 31 days or not.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,456,True,Passed,0.97,106,24,130,Write a function to reverse each string in a given list of string values.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,457,True,Passed,0.73,101,17,118,Write a python function to find the sublist having minimum length.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,458,True,Passed,3.21,101,93,194,Write a function to find the area of a rectangle.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,459,False,AssertionError,1.62,104,46,150,Write a function to remove uppercase substrings from a given string.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,460,True,Passed,0.88,101,21,122,Write a python function to get the first element of each sublist.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,462,False,AssertionError,2.72,106,74,180,Write a function to find all possible combinations of the elements of a given list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,463,True,Passed,4.05,106,118,224,Write a function to find the maximum product subarray of the given array.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,465,False,AssertionError,1.09,102,28,130,Write a function to drop empty items from a given dictionary.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,468,False,AssertionError,2.63,110,77,187,Write a function to find the maximum product formed by multiplying numbers of an increasing subsequence of that array.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,470,False,AssertionError,1.81,109,51,160,Write a function to find the pairwise addition of the neighboring elements of the given tuple.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,471,True,Passed,3.23,107,95,202,Write a python function to find the product of the array multiplication modulo n.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,472,False,AssertionError,2.20,106,63,169,Write a python function to check whether the given list contains consecutive numbers or not.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,473,False,AssertionError,1.12,115,29,144,Write a function to find the tuple intersection of elements in the given tuple list irrespective of their order.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,474,True,Passed,1.14,105,25,130,Write a function to replace characters in a string.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,475,False,AssertionError,1.05,100,26,126,Write a function to sort a dictionary by value.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,476,True,Passed,0.78,108,18,126,Write a python function to find the sum of the largest and smallest value in a given array.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,477,True,Passed,0.64,102,14,116,Write a python function to convert the given string to lower case.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,478,True,Passed,1.54,103,42,145,Write a function to remove lowercase substrings from a given string.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,479,False,Exception: NameError - name 'first_Digit' is not defined,1.55,102,41,143,Write a python function to find the first digit of a given number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,11,False,AssertionError,1.41,109,55,164,Write a python function to remove first and last occurrence of a given character from the string.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,12,True,Passed,0.48,108,17,125,Write a function to sort a given matrix in ascending order according to the sum of its rows.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,14,False,Exception: NameError - name 'find_Volume' is not defined,1.77,101,84,185,Write a python function to find the volume of a triangular prism.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,16,False,AssertionError,0.61,115,24,139,Write a function to that returns true if the input string contains sequences of lowercase letters joined with an underscore and false otherwise.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,17,True,Passed,0.47,107,17,124,Write a function that returns the perimeter of a square given its side length as input.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,18,True,Passed,0.72,111,30,141,Write a function to remove characters from the first string which are present in the second string.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,19,True,Passed,0.57,106,22,128,Write a function to find whether a given array of integers contains any duplicate element.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,20,False,AssertionError,2.17,106,103,209,Write a function to check if the given number is woodball or not.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,56,False,Exception: NameError - name 'num' is not defined,0.78,106,33,139,Write a python function to check if a given number is one less than twice its reverse.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,57,False,Exception: NameError - name 'find_Max_Num' is not defined,1.92,108,91,199,Write a python function to find the largest number that can be formed with the given list of digits.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,58,True,Passed,0.59,109,23,132,Write a python function to check whether the given two integers have opposite sign or not.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,59,False,AssertionError,3.69,101,179,280,Write a function to find the nth octagonal number.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,61,False,AssertionError,2.38,111,113,224,Write a python function to count the number of substrings with the sum of digits equal to their length.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,62,True,Passed,0.42,101,14,115,Write a python function to find smallest number in a list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,63,False,Exception: TypeError - unsupported operand type(s) for -: 'tuple' and 'tuple',2.22,107,105,212,Write a function to find the maximum difference between available pairs in the given tuple list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,64,True,Passed,0.63,107,24,131,Write a function to sort a list of tuples using the second value of each tuple.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,65,False,"Exception: TypeError - can only concatenate list (not ""int"") to list",1.22,105,55,160,Write a function to flatten a list and sum all of its elements.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,66,True,Passed,0.62,104,24,128,Write a python function to count the number of positive numbers in a list.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,67,False,AssertionError,4.88,106,239,345,Write a function to find the number of ways to partition a set of Bell numbers.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,68,True,Passed,1.54,108,71,179,Write a python function to check whether the given array is monotonic or not.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,69,True,Passed,1.35,107,60,167,Write a function to check whether a list contains the given sublist or not.
+Llama-3.2-3B-Instruct-Q4_K_M.gguf,3,70,True,Passed,0.65,105,26,131,Write a function to find whether all the given tuples have equal length or not.

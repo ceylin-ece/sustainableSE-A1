@@ -5,6 +5,7 @@ import json
 import argparse
 import re
 import csv
+import signal
 from llama_cpp import Llama
 
 # 1. Configuration
@@ -29,7 +30,7 @@ if args.output_csv:
     if not os.path.exists(args.output_csv):
         with open(args.output_csv, 'w', newline='', encoding='utf-8') as csvfile:
             writer = csv.writer(csvfile)
-            writer.writerow(['Model_Name', 'Trial', 'Task_ID', 'Passed', 'Reason', 'Duration_Sec', 'Prompt'])
+            writer.writerow(['Model_Name', 'Trial', 'Task_ID', 'Passed', 'Reason', 'Duration_Sec', 'Prompt_Tokens', 'Completion_Tokens', 'Total_Tokens', 'Prompt'])
 
 # 2. Init Model
 # n_gpu_layers=-1 uses Metal on Apple Silicon for all layers
@@ -65,16 +66,28 @@ def evaluate_code(generated_code, test_list, test_setup, test_block, test_import
             full_code += test + "\n"
         
     namespace = {}
+    
+    def timeout_handler(signum, frame):
+        raise TimeoutError("Execution timed out (possible infinite loop in generated code)")
+        
+    # Set a 5-second timeout to prevent infinite loops from hanging the evaluation
+    signal.signal(signal.SIGALRM, timeout_handler)
+    signal.alarm(5)
+    
     try:
         # Note: using exec for user-generated code is risky in production, but fine for local benchmarking
         exec(full_code, namespace)
         return True, "Passed"
+    except TimeoutError as e:
+        return False, f"TimeoutError: {str(e)}"
     except AssertionError:
         return False, "AssertionError"
     except Exception as e:
         import traceback
         error_msg = traceback.format_exc()
         return False, f"Exception: {type(e).__name__} - {str(e)}\n{error_msg}"
+    finally:
+        signal.alarm(0) # Disable the alarm
 
 # 3. Execution Loop
 correct = 0
@@ -125,6 +138,10 @@ with open(args.dataset, 'r') as f:
         response_text = output['choices'][0]['message']['content']
         code = extract_code(response_text)
         
+        prompt_tokens = output.get('usage', {}).get('prompt_tokens', 0)
+        completion_tokens = output.get('usage', {}).get('completion_tokens', 0)
+        total_tokens = output.get('usage', {}).get('total_tokens', 0)
+        
         # Programmatically enforce the correct function name in case the AI ignored instructions
         if expected_func != "unknown":
             code = re.sub(r"def\s+[a-zA-Z0-9_]+\s*\(", f"def {expected_func}(", code, count=1)
@@ -144,8 +161,8 @@ with open(args.dataset, 'r') as f:
         if args.output_csv:
             with open(args.output_csv, 'a', newline='', encoding='utf-8') as csvfile:
                 writer = csv.writer(csvfile)
-                # Model, Trial, Task_ID, Passed, Reason, Duration, Prompt
-                writer.writerow([base_model_name, args.trial, task_id, passed, reason.splitlines()[0], f"{task_duration:.2f}", task_text])
+                # Model, Trial, Task_ID, Passed, Reason, Duration, Prompt_Tokens, Completion_Tokens, Total_Tokens, Prompt
+                writer.writerow([base_model_name, args.trial, task_id, passed, reason.splitlines()[0], f"{task_duration:.2f}", prompt_tokens, completion_tokens, total_tokens, task_text])
                 
         total += 1
 
