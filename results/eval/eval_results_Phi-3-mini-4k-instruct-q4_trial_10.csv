@@ -1,0 +1,225 @@
+Model_Name,Trial,Task_ID,Passed,Reason,Duration_Sec,Prompt_Tokens,Completion_Tokens,Total_Tokens,Prompt
+Phi-3-mini-4k-instruct-q4.gguf,10,11,False,AssertionError,13.04,22,512,534,Write a python function to remove first and last occurrence of a given character from the string.
+Phi-3-mini-4k-instruct-q4.gguf,10,12,True,Passed,13.04,24,512,536,Write a function to sort a given matrix in ascending order according to the sum of its rows.
+Phi-3-mini-4k-instruct-q4.gguf,10,14,False,Exception: NameError - name 'find_Volume' is not defined,12.60,19,496,515,Write a python function to find the volume of a triangular prism.
+Phi-3-mini-4k-instruct-q4.gguf,10,16,False,AssertionError,9.61,30,382,412,Write a function to that returns true if the input string contains sequences of lowercase letters joined with an underscore and false otherwise.
+Phi-3-mini-4k-instruct-q4.gguf,10,17,True,Passed,6.24,22,245,267,Write a function that returns the perimeter of a square given its side length as input.
+Phi-3-mini-4k-instruct-q4.gguf,10,18,True,Passed,11.16,22,466,488,Write a function to remove characters from the first string which are present in the second string.
+Phi-3-mini-4k-instruct-q4.gguf,10,19,True,Passed,8.75,20,373,393,Write a function to find whether a given array of integers contains any duplicate element.
+Phi-3-mini-4k-instruct-q4.gguf,10,20,False,AssertionError,12.01,19,512,531,Write a function to check if the given number is woodball or not.
+Phi-3-mini-4k-instruct-q4.gguf,10,56,True,Passed,10.69,22,457,479,Write a python function to check if a given number is one less than twice its reverse.
+Phi-3-mini-4k-instruct-q4.gguf,10,57,False,Exception: NameError - name 'find_Max_Num' is not defined,7.86,24,340,364,Write a python function to find the largest number that can be formed with the given list of digits.
+Phi-3-mini-4k-instruct-q4.gguf,10,58,True,Passed,8.24,21,356,377,Write a python function to check whether the given two integers have opposite sign or not.
+Phi-3-mini-4k-instruct-q4.gguf,10,59,True,Passed,7.11,17,309,326,Write a function to find the nth octagonal number.
+Phi-3-mini-4k-instruct-q4.gguf,10,61,True,Passed,11.89,25,471,496,Write a python function to count the number of substrings with the sum of digits equal to their length.
+Phi-3-mini-4k-instruct-q4.gguf,10,62,True,Passed,8.83,16,381,397,Write a python function to find smallest number in a list.
+Phi-3-mini-4k-instruct-q4.gguf,10,63,False,AssertionError,10.66,21,456,477,Write a function to find the maximum difference between available pairs in the given tuple list.
+Phi-3-mini-4k-instruct-q4.gguf,10,64,True,Passed,8.99,22,386,408,Write a function to sort a list of tuples using the second value of each tuple.
+Phi-3-mini-4k-instruct-q4.gguf,10,65,False,Exception: NameError - name 'flatten_and_sum_recursive' is not defined,12.02,19,512,531,Write a function to flatten a list and sum all of its elements.
+Phi-3-mini-4k-instruct-q4.gguf,10,66,True,Passed,4.94,19,216,235,Write a python function to count the number of positive numbers in a list.
+Phi-3-mini-4k-instruct-q4.gguf,10,67,True,Passed,11.94,21,507,528,Write a function to find the number of ways to partition a set of Bell numbers.
+Phi-3-mini-4k-instruct-q4.gguf,10,68,True,Passed,10.02,20,430,450,Write a python function to check whether the given array is monotonic or not.
+Phi-3-mini-4k-instruct-q4.gguf,10,69,True,Passed,12.02,20,512,532,Write a function to check whether a list contains the given sublist or not.
+Phi-3-mini-4k-instruct-q4.gguf,10,70,True,Passed,12.02,21,512,533,Write a function to find whether all the given tuples have equal length or not.
+Phi-3-mini-4k-instruct-q4.gguf,10,71,False,Exception: NameError - name 'merge_sort' is not defined,12.00,14,512,526,Write a function to sort a list of elements.
+Phi-3-mini-4k-instruct-q4.gguf,10,72,False,AssertionError,12.05,26,512,538,Write a python function to check whether the given number can be represented as the difference of two squares or not.
+Phi-3-mini-4k-instruct-q4.gguf,10,74,False,AssertionError,12.02,20,512,532,Write a function to check whether it follows the sequence given in the patterns array.
+Phi-3-mini-4k-instruct-q4.gguf,10,75,True,Passed,11.54,27,491,518,Write a function to find tuples which have all elements divisible by k from the given list of tuples.
+Phi-3-mini-4k-instruct-q4.gguf,10,77,False,Exception: ValueError - invalid literal for int() with base 10: '-',11.47,21,489,510,Write a python function to find whether a number is divisible by 11.
+Phi-3-mini-4k-instruct-q4.gguf,10,79,True,Passed,5.22,21,228,249,Write a python function to check whether the length of the word is odd or not.
+Phi-3-mini-4k-instruct-q4.gguf,10,80,False,Exception: ValueError - n must be a positive integer,8.45,18,365,383,Write a function to find the nth tetrahedral number.
+Phi-3-mini-4k-instruct-q4.gguf,10,82,True,Passed,7.43,15,323,338,Write a function to find the volume of a sphere.
+Phi-3-mini-4k-instruct-q4.gguf,10,84,False,AssertionError,10.22,21,438,459,Write a function to find the nth number in the newman conway sequence.
+Phi-3-mini-4k-instruct-q4.gguf,10,85,True,Passed,6.93,16,302,318,Write a function to find the surface area of a sphere.
+Phi-3-mini-4k-instruct-q4.gguf,10,86,True,Passed,6.85,17,298,315,Write a function to find nth centered hexagonal number.
+Phi-3-mini-4k-instruct-q4.gguf,10,87,True,Passed,12.02,17,512,529,Write a function to merge three dictionaries into a single dictionary.
+Phi-3-mini-4k-instruct-q4.gguf,10,88,True,Passed,12.03,24,512,536,"Write a function to get the frequency of all the elements in a list, returned as a dictionary."
+Phi-3-mini-4k-instruct-q4.gguf,10,89,False,AssertionError,12.01,16,512,528,Write a function to find the closest smaller number than n.
+Phi-3-mini-4k-instruct-q4.gguf,10,90,False,Exception: AttributeError - 'list' object has no attribute 'split',12.01,17,512,529,Write a python function to find the length of the longest word.
+Phi-3-mini-4k-instruct-q4.gguf,10,91,True,Passed,8.90,25,383,408,Write a function to check if a string is present as a substring in a given list of string values.
+Phi-3-mini-4k-instruct-q4.gguf,10,92,False,"Exception: SyntaxError - unterminated string literal (detected at line 12) (<string>, line 12)",12.02,19,512,531,Write a function to check whether the given number is undulating or not.
+Phi-3-mini-4k-instruct-q4.gguf,10,93,True,Passed,11.18,21,477,498,Write a function to calculate the value of 'a' to the power 'b'.
+Phi-3-mini-4k-instruct-q4.gguf,10,94,True,Passed,10.76,28,459,487,"Given a list of tuples, write a function that returns the first value of the tuple with the smallest second value."
+Phi-3-mini-4k-instruct-q4.gguf,10,95,True,Passed,8.91,22,383,405,Write a python function to find the length of the smallest list in a list of lists.
+Phi-3-mini-4k-instruct-q4.gguf,10,96,True,Passed,10.39,20,445,465,Write a python function to find the number of divisors of a given integer.
+Phi-3-mini-4k-instruct-q4.gguf,10,97,True,Passed,11.21,27,477,504,"Write a function to find frequency of each element in a flattened list of lists, returned in a dictionary."
+Phi-3-mini-4k-instruct-q4.gguf,10,98,True,Passed,9.45,24,406,430,Write a function to multiply all the numbers in a list and divide with the length of the list.
+Phi-3-mini-4k-instruct-q4.gguf,10,99,False,AssertionError,12.06,27,512,539,"Write a function to convert the given decimal number to its binary equivalent, represented as a string with no leading zeros."
+Phi-3-mini-4k-instruct-q4.gguf,10,100,False,Exception: NameError - name 'is_palindrome' is not defined,11.07,25,472,497,"Write a function to find the next smallest palindrome of a specified integer, returned as an integer."
+Phi-3-mini-4k-instruct-q4.gguf,10,101,True,Passed,8.82,24,380,404,Write a function to find the kth element in the given array using 1-based indexing.
+Phi-3-mini-4k-instruct-q4.gguf,10,102,False,AssertionError,7.00,20,304,324,Write a function to convert a snake case string to camel case string.
+Phi-3-mini-4k-instruct-q4.gguf,10,103,False,Exception: NameError - name 'eulerian_number' is not defined,12.02,20,512,532,"Write a function to find the Eulerian number a(n, m)."
+Phi-3-mini-4k-instruct-q4.gguf,10,104,False,AssertionError,10.86,21,464,485,Write a function to sort each sublist of strings in a given list of lists.
+Phi-3-mini-4k-instruct-q4.gguf,10,105,True,Passed,7.09,19,308,327,Write a python function to count true booleans in the given list.
+Phi-3-mini-4k-instruct-q4.gguf,10,106,False,AssertionError,10.29,18,441,459,Write a function to append the given list to the given tuples.
+Phi-3-mini-4k-instruct-q4.gguf,10,108,True,Passed,12.02,17,512,529,Write a function to merge three lists into a single sorted list.
+Phi-3-mini-4k-instruct-q4.gguf,10,109,False,"Exception: SyntaxError - unterminated string literal (detected at line 3) (<string>, line 3)",12.05,30,512,542,Write a python function to find the number of numbers with an odd value when rotating a binary string the given number of times.
+Phi-3-mini-4k-instruct-q4.gguf,10,111,False,Exception: NameError - name 'flatten_list' is not defined,12.02,17,512,529,Write a function to find the common elements in given nested lists.
+Phi-3-mini-4k-instruct-q4.gguf,10,113,False,AssertionError,11.77,18,501,519,Write a function to check if a string represents an integer or not.
+Phi-3-mini-4k-instruct-q4.gguf,10,116,True,Passed,8.72,20,376,396,Write a function to convert a given tuple of positive integers into a single integer.
+Phi-3-mini-4k-instruct-q4.gguf,10,118,False,AssertionError,7.43,22,322,344,Write a function to convert a string to a list of strings split on the space character.
+Phi-3-mini-4k-instruct-q4.gguf,10,119,True,Passed,9.03,21,389,410,Write a python function to find the element that appears only once in a sorted array.
+Phi-3-mini-4k-instruct-q4.gguf,10,120,True,Passed,9.14,25,393,418,Write a function to find the maximum absolute product between numbers in pairs of tuples within a given list.
+Phi-3-mini-4k-instruct-q4.gguf,10,123,False,"Exception: SyntaxError - unterminated string literal (detected at line 3) (<string>, line 3)",12.03,22,512,534,Write a function to sum all amicable numbers from 1 to a specified number.
+Phi-3-mini-4k-instruct-q4.gguf,10,124,False,Exception: TypeError - angle_complex() takes 1 positional argument but 2 were given,9.49,16,408,424,Write a function to get the angle of a complex number.
+Phi-3-mini-4k-instruct-q4.gguf,10,125,False,AssertionError,12.04,36,512,548,Write a function to find the maximum difference between the number of 0s and number of 1s in any sub-string of the given binary string.
+Phi-3-mini-4k-instruct-q4.gguf,10,126,False,Exception: TypeError - sum() takes 1 positional argument but 2 were given,11.58,21,497,518,Write a python function to find the sum of common divisors of two given numbers.
+Phi-3-mini-4k-instruct-q4.gguf,10,127,True,Passed,7.35,12,323,335,Write a function to multiply two integers.
+Phi-3-mini-4k-instruct-q4.gguf,10,128,False,Exception: TypeError - 'int' object is not iterable,9.42,23,409,432,Write a function to find words that are longer than n characters from a given list of words.
+Phi-3-mini-4k-instruct-q4.gguf,10,129,True,Passed,9.72,17,420,437,Write a function to calculate whether the matrix is a magic square.
+Phi-3-mini-4k-instruct-q4.gguf,10,130,True,Passed,12.01,19,512,531,Write a function to find the item with maximum frequency in a given list.
+Phi-3-mini-4k-instruct-q4.gguf,10,131,False,AssertionError,12.05,28,511,539,Write a python function to reverse only the vowels of a given string (where y is not a vowel).
+Phi-3-mini-4k-instruct-q4.gguf,10,132,False,AssertionError,7.70,15,334,349,Write a function to convert a tuple to a string.
+Phi-3-mini-4k-instruct-q4.gguf,10,133,True,Passed,7.98,22,345,367,Write a function to calculate the sum of the negative numbers of a given list of numbers.
+Phi-3-mini-4k-instruct-q4.gguf,10,135,False,Exception: ValueError - n must be a positive integer,7.23,17,314,331,Write a function to find the nth hexagonal number.
+Phi-3-mini-4k-instruct-q4.gguf,10,137,False,AssertionError,11.78,25,501,526,Write a function to find the ratio of zeroes to non-zeroes in an array of integers.
+Phi-3-mini-4k-instruct-q4.gguf,10,138,False,AssertionError,12.04,30,512,542,Write a python function to check whether the given number can be represented as sum of non-zero powers of 2 or not.
+Phi-3-mini-4k-instruct-q4.gguf,10,139,True,Passed,5.70,16,249,265,Write a function to find the circumference of a circle.
+Phi-3-mini-4k-instruct-q4.gguf,10,140,True,Passed,8.87,21,385,406,Write a function to flatten the list of lists into a single set of numbers.
+Phi-3-mini-4k-instruct-q4.gguf,10,141,False,Exception: NameError - name 'merge_sort' is not defined,12.00,14,512,526,Write a function to sort a list of elements.
+Phi-3-mini-4k-instruct-q4.gguf,10,142,False,Exception: ValueError - Lists must be of the same length.,10.42,23,446,469,Write a function to count number items that are identical in the same position of three given lists.
+Phi-3-mini-4k-instruct-q4.gguf,10,145,False,AssertionError,10.23,22,438,460,Write a python function to find the maximum difference between any two elements in a given array.
+Phi-3-mini-4k-instruct-q4.gguf,10,160,False,Exception: NameError - name 'extended_euclidean' is not defined,12.07,32,512,544,"Write a function that returns integers x and y that satisfy ax + by = n as a tuple, or return None if no solution exists."
+Phi-3-mini-4k-instruct-q4.gguf,10,161,False,Exception: TypeError - unhashable type: 'list',9.42,20,405,425,Write a function to remove all elements from a given list present in another list.
+Phi-3-mini-4k-instruct-q4.gguf,10,162,True,Passed,10.00,55,410,465,"Write a function to calculate the sum (n - 2*i) from i=0 to n // 2, for instance n + (n-2) + (n-4)... (until n-x =< 0)."
+Phi-3-mini-4k-instruct-q4.gguf,10,165,False,AssertionError,12.07,36,512,548,Write a function to count the number of characters in a string that occur at the same position in the string as in the English alphabet (case insensitive).
+Phi-3-mini-4k-instruct-q4.gguf,10,166,True,Passed,12.06,26,512,538,Write a function that counts the number of pairs of integers in a list that xor to an even number.
+Phi-3-mini-4k-instruct-q4.gguf,10,167,False,Exception: ValueError - math domain error,9.18,23,395,418,Write a python function to find the smallest power of 2 greater than or equal to n.
+Phi-3-mini-4k-instruct-q4.gguf,10,168,True,Passed,7.86,22,340,362,Write a function to count the number of occurrences of a number in a given list.
+Phi-3-mini-4k-instruct-q4.gguf,10,170,False,AssertionError,12.04,24,512,536,Write a function to find the sum of numbers in a list within a range specified by two indices.
+Phi-3-mini-4k-instruct-q4.gguf,10,171,True,Passed,5.18,24,226,250,Write a function to find the perimeter of a regular pentagon from the length of its sides.
+Phi-3-mini-4k-instruct-q4.gguf,10,172,True,Passed,12.05,25,512,537,Write a function to count the number of occurence of the string 'std' in a given string.
+Phi-3-mini-4k-instruct-q4.gguf,10,222,True,Passed,12.01,22,510,532,Write a function to check if all the elements in tuple have same data type or not.
+Phi-3-mini-4k-instruct-q4.gguf,10,223,False,Exception: TypeError - is_majority() takes 2 positional arguments but 3 were given,12.19,53,512,565,"Write a function that takes in a sorted array, its length (n), and an element and returns whether the element is the majority element in the given sorted array. (The majority element is the element that occurs more than n/2 times.)"
+Phi-3-mini-4k-instruct-q4.gguf,10,224,True,Passed,7.68,28,332,360,Write a python function to count the number of set bits (binary digits with value 1) in a given number.
+Phi-3-mini-4k-instruct-q4.gguf,10,226,True,Passed,7.64,22,331,353,Write a python function to remove the characters which have odd index values of a given string.
+Phi-3-mini-4k-instruct-q4.gguf,10,227,True,Passed,7.38,14,320,334,Write a function to find minimum of three numbers.
+Phi-3-mini-4k-instruct-q4.gguf,10,230,True,Passed,8.41,31,362,393,"Write a function that takes in a string and character, replaces blank spaces in the string with the character, and returns the string."
+Phi-3-mini-4k-instruct-q4.gguf,10,232,True,Passed,9.78,29,419,448,Write a function that takes in a list and an integer n and returns a list containing the n largest items from the list.
+Phi-3-mini-4k-instruct-q4.gguf,10,233,True,Passed,8.47,19,366,385,Write a function to find the lateral surface area of a cylinder.
+Phi-3-mini-4k-instruct-q4.gguf,10,234,True,Passed,6.06,19,264,283,Write a function to find the volume of a cube given its side length.
+Phi-3-mini-4k-instruct-q4.gguf,10,235,False,AssertionError,9.85,18,423,441,Write a python function to set all even bits of a given number.
+Phi-3-mini-4k-instruct-q4.gguf,10,237,False,AssertionError,10.58,34,452,486,Write a function that takes in a list of tuples and returns a dictionary mapping each unique tuple to the number of times it occurs in the list.
+Phi-3-mini-4k-instruct-q4.gguf,10,238,False,AssertionError,8.58,23,373,396,Write a python function to count the number of non-empty substrings of a given string.
+Phi-3-mini-4k-instruct-q4.gguf,10,239,False,AssertionError,12.18,53,512,565,"Write a function that takes in positive integers m and n and finds the number of possible sequences of length n, such that each element is a positive integer and is greater than or equal to twice the previous element but less than or equal to m."
+Phi-3-mini-4k-instruct-q4.gguf,10,240,False,AssertionError,11.63,30,494,524,Write a function that takes in two lists and replaces the last element of the first list with the elements of the second list.
+Phi-3-mini-4k-instruct-q4.gguf,10,242,True,Passed,6.39,18,278,296,Write a function to count the total number of characters in a string.
+Phi-3-mini-4k-instruct-q4.gguf,10,244,False,AssertionError,8.16,20,353,373,Write a python function to find the next perfect square greater than a given number.
+Phi-3-mini-4k-instruct-q4.gguf,10,245,False,"Exception: SyntaxError - unterminated string literal (detected at line 12) (<string>, line 12)",12.16,43,512,555,"Write a function that takes an array and finds the maximum sum of a bitonic subsequence for the given array, where a sequence is bitonic if it is first increasing and then decreasing."
+Phi-3-mini-4k-instruct-q4.gguf,10,247,True,Passed,12.16,25,512,537,Write a function to find the length of the longest palindromic subsequence in the given string.
+Phi-3-mini-4k-instruct-q4.gguf,10,250,True,Passed,8.44,29,363,392,Write a python function that takes in a tuple and an element and counts the occcurences of the element in the tuple.
+Phi-3-mini-4k-instruct-q4.gguf,10,251,True,Passed,10.31,33,440,473,"Write a function that takes in a list and an element and inserts the element before each element in the list, and returns the resulting list."
+Phi-3-mini-4k-instruct-q4.gguf,10,252,True,Passed,11.42,16,487,503,Write a python function to convert complex numbers to polar coordinates.
+Phi-3-mini-4k-instruct-q4.gguf,10,253,True,Passed,5.48,20,239,259,Write a python function that returns the number of integer elements in a given list.
+Phi-3-mini-4k-instruct-q4.gguf,10,255,False,TimeoutError: Execution timed out (possible infinite loop in generated code),17.41,42,512,554,"Write a function that takes in a list and length n, and generates all combinations (with repetition) of the elements of the list and returns a list with a tuple for each combination."
+Phi-3-mini-4k-instruct-q4.gguf,10,256,False,AssertionError,12.14,32,512,544,Write a python function that takes in a non-negative number and returns the number of prime numbers less than the given non-negative number.
+Phi-3-mini-4k-instruct-q4.gguf,10,257,True,Passed,6.21,26,270,296,Write a function that takes in two numbers and returns a tuple with the second number and then the first number.
+Phi-3-mini-4k-instruct-q4.gguf,10,259,False,Exception: TypeError - unsupported operand type(s) for +: 'int' and 'tuple',11.91,16,506,522,Write a function to maximize the given two tuples.
+Phi-3-mini-4k-instruct-q4.gguf,10,260,False,"Exception: SyntaxError - invalid character '–' (U+2013) (<string>, line 3)",12.06,23,512,535,Write a function to find the nth newman–shanks–williams prime number.
+Phi-3-mini-4k-instruct-q4.gguf,10,261,True,Passed,12.04,27,512,539,Write a function that takes in two tuples and performs mathematical division operation element-wise across the given tuples.
+Phi-3-mini-4k-instruct-q4.gguf,10,262,True,Passed,9.75,47,413,460,"Write a function that takes in a list and an integer L and splits the given list into two parts where the length of the first part of the list is L, and returns the resulting lists in a tuple."
+Phi-3-mini-4k-instruct-q4.gguf,10,264,False,AssertionError,11.18,20,477,497,Write a function to calculate a dog's age in dog's years.
+Phi-3-mini-4k-instruct-q4.gguf,10,265,False,AssertionError,10.65,35,454,489,"Write a function that takes in a list and an integer n and splits a list for every nth element, returning a list of the resulting lists."
+Phi-3-mini-4k-instruct-q4.gguf,10,266,True,Passed,8.99,22,387,409,Write a function to find the lateral surface area of a cube given its side length.
+Phi-3-mini-4k-instruct-q4.gguf,10,267,False,Exception: TypeError - 'float' object cannot be interpreted as an integer,8.78,29,377,406,Write a python function that takes in an integer n and returns the sum of the squares of the first n odd natural numbers.
+Phi-3-mini-4k-instruct-q4.gguf,10,268,False,AssertionError,10.52,16,451,467,Write a function to find the n'th star number.
+Phi-3-mini-4k-instruct-q4.gguf,10,269,True,Passed,7.25,17,315,332,Write a function to find the ascii value of a character.
+Phi-3-mini-4k-instruct-q4.gguf,10,270,True,Passed,10.09,22,419,441,Write a python function to find the sum of even numbers at even positions of a list.
+Phi-3-mini-4k-instruct-q4.gguf,10,271,True,Passed,11.14,33,361,394,Write a python function that takes in an integer n and finds the sum of the first n even natural numbers that are raised to the fifth power.
+Phi-3-mini-4k-instruct-q4.gguf,10,272,True,Passed,7.74,27,311,338,Write a function that takes in a list of tuples and returns a list containing the rear element of each tuple.
+Phi-3-mini-4k-instruct-q4.gguf,10,273,True,Passed,12.82,34,512,546,Write a function that takes in two tuples and subtracts the elements of the first tuple by the elements of the second tuple with the same index.
+Phi-3-mini-4k-instruct-q4.gguf,10,274,False,"Exception: SyntaxError - invalid syntax (<string>, line 3)",12.80,26,512,538,Write a python function that takes in a positive integer n and finds the sum of even index binomial coefficients.
+Phi-3-mini-4k-instruct-q4.gguf,10,276,True,Passed,7.84,24,319,343,Write a function that takes in the radius and height of a cylinder and returns the the volume.
+Phi-3-mini-4k-instruct-q4.gguf,10,277,True,Passed,8.94,32,362,394,Write a function that takes in a dictionary and integer n and filters the dictionary to only include entries with values greater than or equal to n.
+Phi-3-mini-4k-instruct-q4.gguf,10,278,False,Exception: TypeError - count_first_elements() missing 1 required positional argument: 'element',11.86,24,475,499,Write a function to find the number of elements that occurs before the tuple element in the given tuple.
+Phi-3-mini-4k-instruct-q4.gguf,10,279,True,Passed,6.62,17,271,288,Write a function to find the nth decagonal number.
+Phi-3-mini-4k-instruct-q4.gguf,10,280,True,Passed,10.19,48,406,454,Write a function that takes in an array and element and returns a tuple containing a boolean that indicates if the element is in the array and the index position of the element (or -1 if the element is not found).
+Phi-3-mini-4k-instruct-q4.gguf,10,281,True,Passed,9.13,22,370,392,Write a python function to check if the elements of a given list are unique or not.
+Phi-3-mini-4k-instruct-q4.gguf,10,282,True,Passed,11.29,15,454,469,Write a function to subtract two lists element-wise.
+Phi-3-mini-4k-instruct-q4.gguf,10,283,True,Passed,11.98,33,479,512,Write a python function takes in an integer and check whether the frequency of each digit in the integer is less than or equal to the digit itself.
+Phi-3-mini-4k-instruct-q4.gguf,10,284,True,Passed,10.96,29,440,469,Write a function that takes in a list and element and checks whether all items in the list are equal to the given element.
+Phi-3-mini-4k-instruct-q4.gguf,10,285,True,Passed,9.74,28,393,421,Write a function that checks whether a string contains the 'a' character followed by two or three 'b' characters.
+Phi-3-mini-4k-instruct-q4.gguf,10,286,False,"Exception: SyntaxError - unterminated string literal (detected at line 3) (<string>, line 3)",12.84,33,512,545,Write a function to find the largest sum of a contiguous array in the modified array which is formed by repeating the given array k times.
+Phi-3-mini-4k-instruct-q4.gguf,10,287,False,AssertionError,10.01,26,404,430,Write a python function takes in an integer n and returns the sum of squares of first n even natural numbers.
+Phi-3-mini-4k-instruct-q4.gguf,10,290,False,AssertionError,8.85,20,359,379,Write a function to find the list of maximum length in a list of lists.
+Phi-3-mini-4k-instruct-q4.gguf,10,292,True,Passed,8.27,24,336,360,Write a python function to find quotient of two numbers (rounded down to the nearest integer).
+Phi-3-mini-4k-instruct-q4.gguf,10,293,True,Passed,12.80,19,512,531,Write a function to find the third side of a right angled triangle.
+Phi-3-mini-4k-instruct-q4.gguf,10,294,False,"Exception: TypeError - float() argument must be a string or a real number, not 'list'",12.22,19,489,508,Write a function to find the maximum value in a given heterogeneous list.
+Phi-3-mini-4k-instruct-q4.gguf,10,296,False,"Exception: SyntaxError - unterminated string literal (detected at line 5) (<string>, line 5)",12.78,16,512,528,Write a python function to count inversions in an array.
+Phi-3-mini-4k-instruct-q4.gguf,10,297,True,Passed,9.65,16,390,406,Write a function to flatten a given nested list structure.
+Phi-3-mini-4k-instruct-q4.gguf,10,299,False,Exception: TypeError - unsupported operand type(s) for +: 'int' and 'str',12.79,19,512,531,Write a function to calculate the maximum aggregate from the list of tuples.
+Phi-3-mini-4k-instruct-q4.gguf,10,300,False,"Exception: SyntaxError - invalid decimal literal (<string>, line 3)",12.83,36,512,548,Write a function to find the count of all binary sequences of length 2n such that sum of first n bits is same as sum of last n bits.
+Phi-3-mini-4k-instruct-q4.gguf,10,301,False,Exception: NameError - name 'dict_depth' is not defined,9.53,15,385,400,Write a function to find the depth of a dictionary.
+Phi-3-mini-4k-instruct-q4.gguf,10,305,False,AssertionError,8.97,22,364,386,Write a function to return two words from a list of words starting with letter 'p'.
+Phi-3-mini-4k-instruct-q4.gguf,10,306,False,"Exception: SyntaxError - unterminated string literal (detected at line 5) (<string>, line 5)",12.94,43,512,555,"Write a function to find the maximum sum of increasing subsequence from prefix until ith index and also including a given kth element which is after i, i.e., k > i ."
+Phi-3-mini-4k-instruct-q4.gguf,10,308,False,AssertionError,12.81,27,512,539,"Write a function to find the specified number of largest products from two given lists, selecting one factor from each list."
+Phi-3-mini-4k-instruct-q4.gguf,10,309,True,Passed,6.94,16,284,300,Write a python function to find the maximum of two numbers.
+Phi-3-mini-4k-instruct-q4.gguf,10,310,False,AssertionError,6.98,18,286,304,Write a function to convert a given string to a tuple of characters.
+Phi-3-mini-4k-instruct-q4.gguf,10,311,False,AssertionError,10.85,17,437,454,Write a python function to set the left most unset bit.
+Phi-3-mini-4k-instruct-q4.gguf,10,312,True,Passed,8.18,15,334,349,Write a function to find the volume of a cone.
+Phi-3-mini-4k-instruct-q4.gguf,10,388,True,Passed,12.80,25,512,537,Write a python function to find the highest power of 2 that is less than or equal to n.
+Phi-3-mini-4k-instruct-q4.gguf,10,389,True,Passed,11.00,17,443,460,Write a function to find the n'th lucas number.
+Phi-3-mini-4k-instruct-q4.gguf,10,390,False,"Exception: ValueError - Invalid format string. Format string should contain only alphanumeric characters, '{}', and '{}' for placeholders.",12.79,22,512,534,Write a function to apply a given format string to all of the elements in a list.
+Phi-3-mini-4k-instruct-q4.gguf,10,391,False,AssertionError,12.79,17,512,529,Write a function to convert more than one list to nested dictionary.
+Phi-3-mini-4k-instruct-q4.gguf,10,392,False,AssertionError,12.97,55,512,567,"Write a function to find the maximum sum possible by using the given equation f(n) = max( (f(n/2) + f(n/3) + f(n/4) + f(n/5)), n)."
+Phi-3-mini-4k-instruct-q4.gguf,10,394,True,Passed,9.93,16,402,418,Write a function to check if given tuple contains no duplicates.
+Phi-3-mini-4k-instruct-q4.gguf,10,395,True,Passed,7.58,23,309,332,Write a python function to find the first non-repeated character in a given string.
+Phi-3-mini-4k-instruct-q4.gguf,10,397,True,Passed,8.98,15,365,380,Write a function to find the median of three numbers.
+Phi-3-mini-4k-instruct-q4.gguf,10,398,False,AssertionError,12.56,21,502,523,Write a function to compute the sum of digits of each number of a given list.
+Phi-3-mini-4k-instruct-q4.gguf,10,404,True,Passed,6.22,16,255,271,Write a python function to find the minimum of two numbers.
+Phi-3-mini-4k-instruct-q4.gguf,10,405,True,Passed,12.79,17,512,529,Write a function to check whether an element exists within a tuple.
+Phi-3-mini-4k-instruct-q4.gguf,10,406,True,Passed,7.45,21,304,325,Write a python function to find whether the parity of a given number is odd.
+Phi-3-mini-4k-instruct-q4.gguf,10,409,True,Passed,12.80,23,512,535,Write a function to find the minimum product from the pairs of tuples within a given list.
+Phi-3-mini-4k-instruct-q4.gguf,10,410,False,Exception: TypeError - '<' not supported between instances of 'int' and 'str',12.50,19,500,519,Write a function to find the minimum value in a given heterogeneous list.
+Phi-3-mini-4k-instruct-q4.gguf,10,412,True,Passed,12.78,17,512,529,Write a python function to remove odd numbers from a given list.
+Phi-3-mini-4k-instruct-q4.gguf,10,413,False,AssertionError,11.27,21,453,474,Write a function to extract the nth element from a given list of tuples.
+Phi-3-mini-4k-instruct-q4.gguf,10,414,True,Passed,11.34,23,456,479,Write a python function to check whether any value in a sequence exists in a sequence or not.
+Phi-3-mini-4k-instruct-q4.gguf,10,415,False,"Exception: SyntaxError - unterminated string literal (detected at line 5) (<string>, line 5)",12.80,22,512,534,Write a python function to find a pair with highest product from a given array of integers.
+Phi-3-mini-4k-instruct-q4.gguf,10,418,False,AssertionError,11.22,19,451,470,Write a python function to find the element of a list having maximum length.
+Phi-3-mini-4k-instruct-q4.gguf,10,419,False,AssertionError,8.38,31,340,371,Write a function to round every number of a given list of numbers and print the total sum multiplied by the length of the list.
+Phi-3-mini-4k-instruct-q4.gguf,10,420,False,"Exception: SyntaxError - invalid decimal literal (<string>, line 3)",12.80,20,512,532,Write a python function to find the cube sum of first n even natural numbers.
+Phi-3-mini-4k-instruct-q4.gguf,10,421,False,Exception: TypeError - concatenate_tuple() missing 1 required positional argument: 'delimiter',8.91,18,362,380,Write a function to concatenate each element of tuple by the delimiter.
+Phi-3-mini-4k-instruct-q4.gguf,10,422,True,Passed,9.69,21,392,413,Write a python function to find the average of cubes of first n natural numbers.
+Phi-3-mini-4k-instruct-q4.gguf,10,424,False,"Exception: IndentationError - expected an indented block after 'else' statement on line 22 (<string>, line 25)",11.38,22,457,479,Write a function to extract only the rear index element of each string in the given tuple.
+Phi-3-mini-4k-instruct-q4.gguf,10,425,False,AssertionError,12.53,19,501,520,Write a function to count the number of sublists containing a particular element.
+Phi-3-mini-4k-instruct-q4.gguf,10,426,True,Passed,8.83,12,360,372,Write a function to filter odd numbers.
+Phi-3-mini-4k-instruct-q4.gguf,10,427,False,AssertionError,10.15,28,409,437,Write a function to convert a date of yyyy-mm-dd format to dd-mm-yyyy format.
+Phi-3-mini-4k-instruct-q4.gguf,10,428,True,Passed,12.78,17,512,529,Write a function to sort the given array by using shell sort.
+Phi-3-mini-4k-instruct-q4.gguf,10,429,False,AssertionError,11.99,22,480,502,Write a function to extract the elementwise and tuples from the given two tuples.
+Phi-3-mini-4k-instruct-q4.gguf,10,430,False,"Exception: SyntaxError - unterminated string literal (detected at line 3) (<string>, line 3)",12.78,18,512,530,Write a function to find the directrix of a parabola.
+Phi-3-mini-4k-instruct-q4.gguf,10,432,False,"Exception: SyntaxError - unmatched ')' (<string>, line 5)",12.80,18,512,530,Write a function to find the median length of a trapezium.
+Phi-3-mini-4k-instruct-q4.gguf,10,433,False,Exception: TypeError - 'int' object is not iterable,10.52,23,424,447,Write a function to check whether the entered number is greater than the elements of the given array.
+Phi-3-mini-4k-instruct-q4.gguf,10,435,False,Exception: NameError - name 'last_Digit' is not defined,7.69,18,314,332,Write a python function to find the last digit of a given number.
+Phi-3-mini-4k-instruct-q4.gguf,10,436,True,Passed,7.72,17,315,332,Write a python function to return the negative numbers in a list.
+Phi-3-mini-4k-instruct-q4.gguf,10,437,False,AssertionError,9.75,15,395,410,Write a function to remove odd characters in a string.
+Phi-3-mini-4k-instruct-q4.gguf,10,439,True,Passed,8.99,19,365,384,Write a function to join a list of multiple integers into a single integer.
+Phi-3-mini-4k-instruct-q4.gguf,10,440,False,"Exception: SyntaxError - unterminated string literal (detected at line 3) (<string>, line 3)",12.79,21,512,533,Write a function to find the first adverb and their positions in a given sentence.
+Phi-3-mini-4k-instruct-q4.gguf,10,441,True,Passed,7.69,20,314,334,Write a function to find the surface area of a cube of a given size.
+Phi-3-mini-4k-instruct-q4.gguf,10,445,False,Exception: TypeError - can't multiply sequence by non-int of type 'tuple',9.80,22,396,418,Write a function to perform index wise multiplication of tuple elements in the given two tuples.
+Phi-3-mini-4k-instruct-q4.gguf,10,446,False,AssertionError,12.78,22,512,534,Write a python function to count the occurence of all elements of list in a tuple.
+Phi-3-mini-4k-instruct-q4.gguf,10,447,True,Passed,8.20,18,334,352,Write a function to find cubes of individual elements in a list.
+Phi-3-mini-4k-instruct-q4.gguf,10,448,False,"Exception: SyntaxError - invalid syntax (<string>, line 3)",12.77,16,512,528,Write a function to calculate the sum of perrin numbers.
+Phi-3-mini-4k-instruct-q4.gguf,10,450,True,Passed,9.32,21,378,399,Write a function to extract specified size of strings from a given list of string values.
+Phi-3-mini-4k-instruct-q4.gguf,10,451,False,AssertionError,12.78,17,512,529,Write a function to remove all whitespaces from the given string.
+Phi-3-mini-4k-instruct-q4.gguf,10,453,False,Exception: NameError - name 'sumofFactors' is not defined,12.47,19,499,518,Write a python function to find the sum of even factors of a number.
+Phi-3-mini-4k-instruct-q4.gguf,10,454,False,AssertionError,11.77,15,473,488,Write a function that matches a word containing 'z'.
+Phi-3-mini-4k-instruct-q4.gguf,10,455,True,Passed,12.81,22,512,534,Write a function to check whether the given month number contains 31 days or not.
+Phi-3-mini-4k-instruct-q4.gguf,10,456,True,Passed,7.53,19,307,326,Write a function to reverse each string in a given list of string values.
+Phi-3-mini-4k-instruct-q4.gguf,10,457,False,AssertionError,11.47,17,461,478,Write a python function to find the sublist having minimum length.
+Phi-3-mini-4k-instruct-q4.gguf,10,458,True,Passed,5.60,15,230,245,Write a function to find the area of a rectangle.
+Phi-3-mini-4k-instruct-q4.gguf,10,459,False,AssertionError,8.75,18,356,374,Write a function to remove uppercase substrings from a given string.
+Phi-3-mini-4k-instruct-q4.gguf,10,460,True,Passed,8.51,18,346,364,Write a python function to get the first element of each sublist.
+Phi-3-mini-4k-instruct-q4.gguf,10,462,False,AssertionError,12.63,20,500,520,Write a function to find all possible combinations of the elements of a given list.
+Phi-3-mini-4k-instruct-q4.gguf,10,463,False,"Exception: SyntaxError - unterminated string literal (detected at line 5) (<string>, line 5)",12.80,19,512,531,Write a function to find the maximum product subarray of the given array.
+Phi-3-mini-4k-instruct-q4.gguf,10,465,False,AssertionError,11.35,16,456,472,Write a function to drop empty items from a given dictionary.
+Phi-3-mini-4k-instruct-q4.gguf,10,468,False,AssertionError,12.81,26,512,538,Write a function to find the maximum product formed by multiplying numbers of an increasing subsequence of that array.
+Phi-3-mini-4k-instruct-q4.gguf,10,470,True,Passed,11.80,23,473,496,Write a function to find the pairwise addition of the neighboring elements of the given tuple.
+Phi-3-mini-4k-instruct-q4.gguf,10,471,True,Passed,10.25,20,414,434,Write a python function to find the product of the array multiplication modulo n.
+Phi-3-mini-4k-instruct-q4.gguf,10,472,False,AssertionError,11.57,20,465,485,Write a python function to check whether the given list contains consecutive numbers or not.
+Phi-3-mini-4k-instruct-q4.gguf,10,473,False,Exception: TypeError - tuple_intersection() takes 1 positional argument but 2 were given,12.82,26,512,538,Write a function to find the tuple intersection of elements in the given tuple list irrespective of their order.
+Phi-3-mini-4k-instruct-q4.gguf,10,474,False,Exception: TypeError - replace_char() takes 2 positional arguments but 3 were given,11.47,14,462,476,Write a function to replace characters in a string.
+Phi-3-mini-4k-instruct-q4.gguf,10,475,False,AssertionError,11.70,14,471,485,Write a function to sort a dictionary by value.
+Phi-3-mini-4k-instruct-q4.gguf,10,476,True,Passed,7.83,23,319,342,Write a python function to find the sum of the largest and smallest value in a given array.
+Phi-3-mini-4k-instruct-q4.gguf,10,477,True,Passed,7.04,17,288,305,Write a python function to convert the given string to lower case.
+Phi-3-mini-4k-instruct-q4.gguf,10,478,False,AssertionError,11.92,18,478,496,Write a function to remove lowercase substrings from a given string.
+Phi-3-mini-4k-instruct-q4.gguf,10,479,False,Exception: NameError - name 'first_Digit' is not defined,8.50,18,346,364,Write a python function to find the first digit of a given number.
