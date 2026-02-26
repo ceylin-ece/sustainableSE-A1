@@ -3,4 +3,5 @@ models/
 __pycache__/
 *.pyc
 .DS_Store
+analysis_output.txt
 
